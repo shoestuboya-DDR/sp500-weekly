@@ -1,0 +1,14 @@
+{
+  "fund_name": "eMAXIS Slim 米国株式(S&P500)",
+  "isin": "JP90C000GKC6",
+  "source_url": "https://toushin-lib.fwg.ne.jp/FdsWeb/FDST030000/csv-file-download?isinCd=JP90C000GKC6&associFundCd=03311187",
+  "site_url": "",
+  "alert_threshold_pct": -5.0,
+  "display_weeks": 52,
+  "stale_days": 10,
+  "notify": {
+    "channel": "gmail",
+    "weekly_summary": true,
+    "on_error": true
+  }
+}

@@ -1,0 +1,4354 @@
+{
+  "fund": {
+    "name": "eMAXIS Slim 米国株式(S&P500)",
+    "isin": "JP90C000GKC6"
+  },
+  "generated_at": "2026-11-02T23:25:57+09:00",
+  "source_latest_date": "2026-10-30",
+  "source_row_count": 2031,
+  "alert_threshold_pct": -5.0,
+  "display_weeks": 52,
+  "stale_days": 10,
+  "weeks": [
+    {
+      "week": "2026-W44",
+      "date": "2026-10-30",
+      "price": 44816,
+      "prev_date": "2026-10-23",
+      "prev_price": 44192,
+      "change_pct": 1.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W43",
+      "date": "2026-10-23",
+      "price": 44192,
+      "prev_date": "2026-10-16",
+      "prev_price": 45135,
+      "change_pct": -2.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W42",
+      "date": "2026-10-16",
+      "price": 45135,
+      "prev_date": "2026-10-09",
+      "prev_price": 45246,
+      "change_pct": -0.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W41",
+      "date": "2026-10-09",
+      "price": 45246,
+      "prev_date": "2026-10-02",
+      "prev_price": 44658,
+      "change_pct": 1.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W40",
+      "date": "2026-10-02",
+      "price": 44658,
+      "prev_date": "2026-09-25",
+      "prev_price": 45049,
+      "change_pct": -0.87,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W39",
+      "date": "2026-09-25",
+      "price": 45049,
+      "prev_date": "2026-09-18",
+      "prev_price": 43966,
+      "change_pct": 2.46,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W38",
+      "date": "2026-09-18",
+      "price": 43966,
+      "prev_date": "2026-09-11",
+      "prev_price": 43223,
+      "change_pct": 1.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W37",
+      "date": "2026-09-11",
+      "price": 43223,
+      "prev_date": "2026-09-04",
+      "prev_price": 44392,
+      "change_pct": -2.63,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W36",
+      "date": "2026-09-04",
+      "price": 44392,
+      "prev_date": "2026-08-28",
+      "prev_price": 45344,
+      "change_pct": -2.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W35",
+      "date": "2026-08-28",
+      "price": 45344,
+      "prev_date": "2026-08-21",
+      "prev_price": 44740,
+      "change_pct": 1.35,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W34",
+      "date": "2026-08-21",
+      "price": 44740,
+      "prev_date": "2026-08-14",
+      "prev_price": 45727,
+      "change_pct": -2.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W33",
+      "date": "2026-08-14",
+      "price": 45727,
+      "prev_date": "2026-08-07",
+      "prev_price": 44975,
+      "change_pct": 1.67,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W32",
+      "date": "2026-08-07",
+      "price": 44975,
+      "prev_date": "2026-07-31",
+      "prev_price": 43950,
+      "change_pct": 2.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W31",
+      "date": "2026-07-31",
+      "price": 43950,
+      "prev_date": "2026-07-24",
+      "prev_price": 44669,
+      "change_pct": -1.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W30",
+      "date": "2026-07-24",
+      "price": 44669,
+      "prev_date": "2026-07-17",
+      "prev_price": 45008,
+      "change_pct": -0.75,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W29",
+      "date": "2026-07-17",
+      "price": 45008,
+      "prev_date": "2026-07-10",
+      "prev_price": 44958,
+      "change_pct": 0.11,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W28",
+      "date": "2026-07-10",
+      "price": 44958,
+      "prev_date": "2026-07-03",
+      "prev_price": 44352,
+      "change_pct": 1.37,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W27",
+      "date": "2026-07-03",
+      "price": 44352,
+      "prev_date": "2026-06-26",
+      "prev_price": 43772,
+      "change_pct": 1.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W26",
+      "date": "2026-06-26",
+      "price": 43772,
+      "prev_date": "2026-06-19",
+      "prev_price": 44418,
+      "change_pct": -1.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W25",
+      "date": "2026-06-19",
+      "price": 44418,
+      "prev_date": "2026-06-12",
+      "prev_price": 43507,
+      "change_pct": 2.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W24",
+      "date": "2026-06-12",
+      "price": 43507,
+      "prev_date": "2026-06-05",
+      "prev_price": 44577,
+      "change_pct": -2.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W23",
+      "date": "2026-06-05",
+      "price": 44577,
+      "prev_date": "2026-05-29",
+      "prev_price": 44260,
+      "change_pct": 0.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W22",
+      "date": "2026-05-29",
+      "price": 44260,
+      "prev_date": "2026-05-22",
+      "prev_price": 43511,
+      "change_pct": 1.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W21",
+      "date": "2026-05-22",
+      "price": 43511,
+      "prev_date": "2026-05-15",
+      "prev_price": 43645,
+      "change_pct": -0.31,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W20",
+      "date": "2026-05-15",
+      "price": 43645,
+      "prev_date": "2026-05-08",
+      "prev_price": 42272,
+      "change_pct": 3.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W19",
+      "date": "2026-05-08",
+      "price": 42272,
+      "prev_date": "2026-05-01",
+      "prev_price": 41553,
+      "change_pct": 1.73,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W18",
+      "date": "2026-05-01",
+      "price": 41553,
+      "prev_date": "2026-04-24",
+      "prev_price": 41675,
+      "change_pct": -0.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W17",
+      "date": "2026-04-24",
+      "price": 41675,
+      "prev_date": "2026-04-17",
+      "prev_price": 41172,
+      "change_pct": 1.22,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W16",
+      "date": "2026-04-17",
+      "price": 41172,
+      "prev_date": "2026-04-10",
+      "prev_price": 39868,
+      "change_pct": 3.27,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W15",
+      "date": "2026-04-10",
+      "price": 39868,
+      "prev_date": "2026-04-03",
+      "prev_price": 38546,
+      "change_pct": 3.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W14",
+      "date": "2026-04-03",
+      "price": 38546,
+      "prev_date": "2026-03-27",
+      "prev_price": 37897,
+      "change_pct": 1.71,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W13",
+      "date": "2026-03-27",
+      "price": 37897,
+      "prev_date": "2026-03-19",
+      "prev_price": 38822,
+      "change_pct": -2.38,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W12",
+      "date": "2026-03-19",
+      "price": 38822,
+      "prev_date": "2026-03-13",
+      "prev_price": 38942,
+      "change_pct": -0.31,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W11",
+      "date": "2026-03-13",
+      "price": 38942,
+      "prev_date": "2026-03-06",
+      "prev_price": 39397,
+      "change_pct": -1.15,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W10",
+      "date": "2026-03-06",
+      "price": 39397,
+      "prev_date": "2026-02-27",
+      "prev_price": 39424,
+      "change_pct": -0.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W09",
+      "date": "2026-02-27",
+      "price": 39424,
+      "prev_date": "2026-02-20",
+      "prev_price": 38985,
+      "change_pct": 1.13,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W08",
+      "date": "2026-02-20",
+      "price": 38985,
+      "prev_date": "2026-02-13",
+      "prev_price": 38255,
+      "change_pct": 1.91,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W07",
+      "date": "2026-02-13",
+      "price": 38255,
+      "prev_date": "2026-02-06",
+      "prev_price": 39015,
+      "change_pct": -1.95,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W06",
+      "date": "2026-02-06",
+      "price": 39015,
+      "prev_date": "2026-01-30",
+      "prev_price": 39183,
+      "change_pct": -0.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W05",
+      "date": "2026-01-30",
+      "price": 39183,
+      "prev_date": "2026-01-23",
+      "prev_price": 40122,
+      "change_pct": -2.34,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W04",
+      "date": "2026-01-23",
+      "price": 40122,
+      "prev_date": "2026-01-16",
+      "prev_price": 40337,
+      "change_pct": -0.53,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W03",
+      "date": "2026-01-16",
+      "price": 40337,
+      "prev_date": "2026-01-09",
+      "prev_price": 39785,
+      "change_pct": 1.39,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W02",
+      "date": "2026-01-09",
+      "price": 39785,
+      "prev_date": "2025-12-30",
+      "prev_price": 39535,
+      "change_pct": 0.63,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2026-W01",
+      "date": "2025-12-30",
+      "price": 39535,
+      "prev_date": "2025-12-26",
+      "prev_price": 39668,
+      "change_pct": -0.34,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W52",
+      "date": "2025-12-26",
+      "price": 39668,
+      "prev_date": "2025-12-19",
+      "prev_price": 38603,
+      "change_pct": 2.76,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W51",
+      "date": "2025-12-19",
+      "price": 38603,
+      "prev_date": "2025-12-12",
+      "prev_price": 39278,
+      "change_pct": -1.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W50",
+      "date": "2025-12-12",
+      "price": 39278,
+      "prev_date": "2025-12-05",
+      "prev_price": 38871,
+      "change_pct": 1.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W49",
+      "date": "2025-12-05",
+      "price": 38871,
+      "prev_date": "2025-11-28",
+      "prev_price": 38984,
+      "change_pct": -0.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W48",
+      "date": "2025-11-28",
+      "price": 38984,
+      "prev_date": "2025-11-21",
+      "prev_price": 37618,
+      "change_pct": 3.63,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W47",
+      "date": "2025-11-21",
+      "price": 37618,
+      "prev_date": "2025-11-14",
+      "prev_price": 38066,
+      "change_pct": -1.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W46",
+      "date": "2025-11-14",
+      "price": 38066,
+      "prev_date": "2025-11-07",
+      "prev_price": 37592,
+      "change_pct": 1.26,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W45",
+      "date": "2025-11-07",
+      "price": 37592,
+      "prev_date": "2025-10-31",
+      "prev_price": 38371,
+      "change_pct": -2.03,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W44",
+      "date": "2025-10-31",
+      "price": 38371,
+      "prev_date": "2025-10-24",
+      "prev_price": 37551,
+      "change_pct": 2.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W43",
+      "date": "2025-10-24",
+      "price": 37551,
+      "prev_date": "2025-10-17",
+      "prev_price": 36333,
+      "change_pct": 3.35,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W42",
+      "date": "2025-10-17",
+      "price": 36333,
+      "prev_date": "2025-10-10",
+      "prev_price": 37623,
+      "change_pct": -3.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W41",
+      "date": "2025-10-10",
+      "price": 37623,
+      "prev_date": "2025-10-03",
+      "prev_price": 36112,
+      "change_pct": 4.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W40",
+      "date": "2025-10-03",
+      "price": 36112,
+      "prev_date": "2025-09-26",
+      "prev_price": 36086,
+      "change_pct": 0.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W39",
+      "date": "2025-09-26",
+      "price": 36086,
+      "prev_date": "2025-09-19",
+      "prev_price": 35812,
+      "change_pct": 0.77,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W38",
+      "date": "2025-09-19",
+      "price": 35812,
+      "prev_date": "2025-09-12",
+      "prev_price": 35382,
+      "change_pct": 1.22,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W37",
+      "date": "2025-09-12",
+      "price": 35382,
+      "prev_date": "2025-09-05",
+      "prev_price": 35141,
+      "change_pct": 0.69,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W36",
+      "date": "2025-09-05",
+      "price": 35141,
+      "prev_date": "2025-08-29",
+      "prev_price": 34812,
+      "change_pct": 0.95,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W35",
+      "date": "2025-08-29",
+      "price": 34812,
+      "prev_date": "2025-08-22",
+      "prev_price": 34477,
+      "change_pct": 0.97,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W34",
+      "date": "2025-08-22",
+      "price": 34477,
+      "prev_date": "2025-08-15",
+      "prev_price": 34788,
+      "change_pct": -0.89,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W33",
+      "date": "2025-08-15",
+      "price": 34788,
+      "prev_date": "2025-08-08",
+      "prev_price": 33997,
+      "change_pct": 2.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W32",
+      "date": "2025-08-08",
+      "price": 33997,
+      "prev_date": "2025-08-01",
+      "prev_price": 34806,
+      "change_pct": -2.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W31",
+      "date": "2025-08-01",
+      "price": 34806,
+      "prev_date": "2025-07-25",
+      "prev_price": 34153,
+      "change_pct": 1.91,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W30",
+      "date": "2025-07-25",
+      "price": 34153,
+      "prev_date": "2025-07-18",
+      "prev_price": 34086,
+      "change_pct": 0.2,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W29",
+      "date": "2025-07-18",
+      "price": 34086,
+      "prev_date": "2025-07-11",
+      "prev_price": 33528,
+      "change_pct": 1.66,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W28",
+      "date": "2025-07-11",
+      "price": 33528,
+      "prev_date": "2025-07-04",
+      "prev_price": 33054,
+      "change_pct": 1.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W27",
+      "date": "2025-07-04",
+      "price": 33054,
+      "prev_date": "2025-06-27",
+      "prev_price": 32305,
+      "change_pct": 2.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W26",
+      "date": "2025-06-27",
+      "price": 32305,
+      "prev_date": "2025-06-20",
+      "prev_price": 31627,
+      "change_pct": 2.14,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W25",
+      "date": "2025-06-20",
+      "price": 31627,
+      "prev_date": "2025-06-13",
+      "prev_price": 31458,
+      "change_pct": 0.54,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W24",
+      "date": "2025-06-13",
+      "price": 31458,
+      "prev_date": "2025-06-06",
+      "prev_price": 31047,
+      "change_pct": 1.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W23",
+      "date": "2025-06-06",
+      "price": 31047,
+      "prev_date": "2025-05-30",
+      "prev_price": 30919,
+      "change_pct": 0.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W22",
+      "date": "2025-05-30",
+      "price": 30919,
+      "prev_date": "2025-05-23",
+      "prev_price": 30557,
+      "change_pct": 1.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W21",
+      "date": "2025-05-23",
+      "price": 30557,
+      "prev_date": "2025-05-16",
+      "prev_price": 31191,
+      "change_pct": -2.03,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W20",
+      "date": "2025-05-16",
+      "price": 31191,
+      "prev_date": "2025-05-09",
+      "prev_price": 29994,
+      "change_pct": 3.99,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W19",
+      "date": "2025-05-09",
+      "price": 29994,
+      "prev_date": "2025-05-02",
+      "prev_price": 29710,
+      "change_pct": 0.96,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W18",
+      "date": "2025-05-02",
+      "price": 29710,
+      "prev_date": "2025-04-25",
+      "prev_price": 28502,
+      "change_pct": 4.24,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W17",
+      "date": "2025-04-25",
+      "price": 28502,
+      "prev_date": "2025-04-18",
+      "prev_price": 27325,
+      "change_pct": 4.31,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W16",
+      "date": "2025-04-18",
+      "price": 27325,
+      "prev_date": "2025-04-11",
+      "prev_price": 27452,
+      "change_pct": -0.46,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W15",
+      "date": "2025-04-11",
+      "price": 27452,
+      "prev_date": "2025-04-04",
+      "prev_price": 28603,
+      "change_pct": -4.02,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W14",
+      "date": "2025-04-04",
+      "price": 28603,
+      "prev_date": "2025-03-28",
+      "prev_price": 31218,
+      "change_pct": -8.38,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W13",
+      "date": "2025-03-28",
+      "price": 31218,
+      "prev_date": "2025-03-21",
+      "prev_price": 30628,
+      "change_pct": 1.93,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W12",
+      "date": "2025-03-21",
+      "price": 30628,
+      "prev_date": "2025-03-14",
+      "prev_price": 29711,
+      "change_pct": 3.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W11",
+      "date": "2025-03-14",
+      "price": 29711,
+      "prev_date": "2025-03-07",
+      "prev_price": 30809,
+      "change_pct": -3.56,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W10",
+      "date": "2025-03-07",
+      "price": 30809,
+      "prev_date": "2025-02-28",
+      "prev_price": 31801,
+      "change_pct": -3.12,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W09",
+      "date": "2025-02-28",
+      "price": 31801,
+      "prev_date": "2025-02-21",
+      "prev_price": 33229,
+      "change_pct": -4.3,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W08",
+      "date": "2025-02-21",
+      "price": 33229,
+      "prev_date": "2025-02-14",
+      "prev_price": 33855,
+      "change_pct": -1.85,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W07",
+      "date": "2025-02-14",
+      "price": 33855,
+      "prev_date": "2025-02-07",
+      "prev_price": 33340,
+      "change_pct": 1.54,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W06",
+      "date": "2025-02-07",
+      "price": 33340,
+      "prev_date": "2025-01-31",
+      "prev_price": 33955,
+      "change_pct": -1.81,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W05",
+      "date": "2025-01-31",
+      "price": 33955,
+      "prev_date": "2025-01-24",
+      "prev_price": 34638,
+      "change_pct": -1.97,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W04",
+      "date": "2025-01-24",
+      "price": 34638,
+      "prev_date": "2025-01-17",
+      "prev_price": 33378,
+      "change_pct": 3.77,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W03",
+      "date": "2025-01-17",
+      "price": 33378,
+      "prev_date": "2025-01-10",
+      "prev_price": 33890,
+      "change_pct": -1.51,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W02",
+      "date": "2025-01-10",
+      "price": 33890,
+      "prev_date": "2024-12-30",
+      "prev_price": 34182,
+      "change_pct": -0.85,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2025-W01",
+      "date": "2024-12-30",
+      "price": 34182,
+      "prev_date": "2024-12-27",
+      "prev_price": 34561,
+      "change_pct": -1.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W52",
+      "date": "2024-12-27",
+      "price": 34561,
+      "prev_date": "2024-12-20",
+      "prev_price": 33532,
+      "change_pct": 3.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W51",
+      "date": "2024-12-20",
+      "price": 33532,
+      "prev_date": "2024-12-13",
+      "prev_price": 33498,
+      "change_pct": 0.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W50",
+      "date": "2024-12-13",
+      "price": 33498,
+      "prev_date": "2024-12-06",
+      "prev_price": 32972,
+      "change_pct": 1.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W49",
+      "date": "2024-12-06",
+      "price": 32972,
+      "prev_date": "2024-11-29",
+      "prev_price": 32695,
+      "change_pct": 0.85,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W48",
+      "date": "2024-11-29",
+      "price": 32695,
+      "prev_date": "2024-11-22",
+      "prev_price": 33232,
+      "change_pct": -1.62,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W47",
+      "date": "2024-11-22",
+      "price": 33232,
+      "prev_date": "2024-11-15",
+      "prev_price": 33721,
+      "change_pct": -1.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W46",
+      "date": "2024-11-15",
+      "price": 33721,
+      "prev_date": "2024-11-08",
+      "prev_price": 33044,
+      "change_pct": 2.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W45",
+      "date": "2024-11-08",
+      "price": 33044,
+      "prev_date": "2024-11-01",
+      "prev_price": 31336,
+      "change_pct": 5.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W44",
+      "date": "2024-11-01",
+      "price": 31336,
+      "prev_date": "2024-10-25",
+      "prev_price": 31931,
+      "change_pct": -1.86,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W43",
+      "date": "2024-10-25",
+      "price": 31931,
+      "prev_date": "2024-10-18",
+      "prev_price": 31673,
+      "change_pct": 0.81,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W42",
+      "date": "2024-10-18",
+      "price": 31673,
+      "prev_date": "2024-10-11",
+      "prev_price": 31023,
+      "change_pct": 2.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W41",
+      "date": "2024-10-11",
+      "price": 31023,
+      "prev_date": "2024-10-04",
+      "prev_price": 30192,
+      "change_pct": 2.75,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W40",
+      "date": "2024-10-04",
+      "price": 30192,
+      "prev_date": "2024-09-27",
+      "prev_price": 30180,
+      "change_pct": 0.04,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W39",
+      "date": "2024-09-27",
+      "price": 30180,
+      "prev_date": "2024-09-20",
+      "prev_price": 29440,
+      "change_pct": 2.51,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W38",
+      "date": "2024-09-20",
+      "price": 29440,
+      "prev_date": "2024-09-13",
+      "prev_price": 28576,
+      "change_pct": 3.02,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W37",
+      "date": "2024-09-13",
+      "price": 28576,
+      "prev_date": "2024-09-06",
+      "prev_price": 28435,
+      "change_pct": 0.5,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W36",
+      "date": "2024-09-06",
+      "price": 28435,
+      "prev_date": "2024-08-30",
+      "prev_price": 29198,
+      "change_pct": -2.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W35",
+      "date": "2024-08-30",
+      "price": 29198,
+      "prev_date": "2024-08-23",
+      "prev_price": 29378,
+      "change_pct": -0.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W34",
+      "date": "2024-08-23",
+      "price": 29378,
+      "prev_date": "2024-08-16",
+      "prev_price": 29798,
+      "change_pct": -1.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W33",
+      "date": "2024-08-16",
+      "price": 29798,
+      "prev_date": "2024-08-09",
+      "prev_price": 28298,
+      "change_pct": 5.3,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W32",
+      "date": "2024-08-09",
+      "price": 28298,
+      "prev_date": "2024-08-02",
+      "prev_price": 29337,
+      "change_pct": -3.54,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W31",
+      "date": "2024-08-02",
+      "price": 29337,
+      "prev_date": "2024-07-26",
+      "prev_price": 29974,
+      "change_pct": -2.13,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W30",
+      "date": "2024-07-26",
+      "price": 29974,
+      "prev_date": "2024-07-19",
+      "prev_price": 31451,
+      "change_pct": -4.7,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W29",
+      "date": "2024-07-19",
+      "price": 31451,
+      "prev_date": "2024-07-12",
+      "prev_price": 32000,
+      "change_pct": -1.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W28",
+      "date": "2024-07-12",
+      "price": 32000,
+      "prev_date": "2024-07-05",
+      "prev_price": 32129,
+      "change_pct": -0.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W27",
+      "date": "2024-07-05",
+      "price": 32129,
+      "prev_date": "2024-06-28",
+      "prev_price": 31789,
+      "change_pct": 1.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W26",
+      "date": "2024-06-28",
+      "price": 31789,
+      "prev_date": "2024-06-21",
+      "prev_price": 31342,
+      "change_pct": 1.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W25",
+      "date": "2024-06-21",
+      "price": 31342,
+      "prev_date": "2024-06-14",
+      "prev_price": 30755,
+      "change_pct": 1.91,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W24",
+      "date": "2024-06-14",
+      "price": 30755,
+      "prev_date": "2024-06-07",
+      "prev_price": 30002,
+      "change_pct": 2.51,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W23",
+      "date": "2024-06-07",
+      "price": 30002,
+      "prev_date": "2024-05-31",
+      "prev_price": 29510,
+      "change_pct": 1.67,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W22",
+      "date": "2024-05-31",
+      "price": 29510,
+      "prev_date": "2024-05-24",
+      "prev_price": 29769,
+      "change_pct": -0.87,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W21",
+      "date": "2024-05-24",
+      "price": 29769,
+      "prev_date": "2024-05-17",
+      "prev_price": 29629,
+      "change_pct": 0.47,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W20",
+      "date": "2024-05-17",
+      "price": 29629,
+      "prev_date": "2024-05-10",
+      "prev_price": 29170,
+      "change_pct": 1.57,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W19",
+      "date": "2024-05-10",
+      "price": 29170,
+      "prev_date": "2024-05-02",
+      "prev_price": 28145,
+      "change_pct": 3.64,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W18",
+      "date": "2024-05-02",
+      "price": 28145,
+      "prev_date": "2024-04-26",
+      "prev_price": 28243,
+      "change_pct": -0.35,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W17",
+      "date": "2024-04-26",
+      "price": 28243,
+      "prev_date": "2024-04-19",
+      "prev_price": 27854,
+      "change_pct": 1.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W16",
+      "date": "2024-04-19",
+      "price": 27854,
+      "prev_date": "2024-04-12",
+      "prev_price": 28582,
+      "change_pct": -2.55,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W15",
+      "date": "2024-04-12",
+      "price": 28582,
+      "prev_date": "2024-04-05",
+      "prev_price": 27905,
+      "change_pct": 2.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W14",
+      "date": "2024-04-05",
+      "price": 27905,
+      "prev_date": "2024-03-29",
+      "prev_price": 28559,
+      "change_pct": -2.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W13",
+      "date": "2024-03-29",
+      "price": 28559,
+      "prev_date": "2024-03-22",
+      "prev_price": 28519,
+      "change_pct": 0.14,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W12",
+      "date": "2024-03-22",
+      "price": 28519,
+      "prev_date": "2024-03-15",
+      "prev_price": 27466,
+      "change_pct": 3.83,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W11",
+      "date": "2024-03-15",
+      "price": 27466,
+      "prev_date": "2024-03-08",
+      "prev_price": 27358,
+      "change_pct": 0.39,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W10",
+      "date": "2024-03-08",
+      "price": 27358,
+      "prev_date": "2024-03-01",
+      "prev_price": 27473,
+      "change_pct": -0.42,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W09",
+      "date": "2024-03-01",
+      "price": 27473,
+      "prev_date": "2024-02-22",
+      "prev_price": 26889,
+      "change_pct": 2.17,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W08",
+      "date": "2024-02-22",
+      "price": 26889,
+      "prev_date": "2024-02-16",
+      "prev_price": 27091,
+      "change_pct": -0.75,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W07",
+      "date": "2024-02-16",
+      "price": 27091,
+      "prev_date": "2024-02-09",
+      "prev_price": 26773,
+      "change_pct": 1.19,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W06",
+      "date": "2024-02-09",
+      "price": 26773,
+      "prev_date": "2024-02-02",
+      "prev_price": 25741,
+      "change_pct": 4.01,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W05",
+      "date": "2024-02-02",
+      "price": 25741,
+      "prev_date": "2024-01-26",
+      "prev_price": 25888,
+      "change_pct": -0.57,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W04",
+      "date": "2024-01-26",
+      "price": 25888,
+      "prev_date": "2024-01-19",
+      "prev_price": 25369,
+      "change_pct": 2.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W03",
+      "date": "2024-01-19",
+      "price": 25369,
+      "prev_date": "2024-01-12",
+      "prev_price": 24871,
+      "change_pct": 2.0,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W02",
+      "date": "2024-01-12",
+      "price": 24871,
+      "prev_date": "2024-01-05",
+      "prev_price": 24342,
+      "change_pct": 2.17,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2024-W01",
+      "date": "2024-01-05",
+      "price": 24342,
+      "prev_date": "2023-12-29",
+      "prev_price": 24281,
+      "change_pct": 0.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W52",
+      "date": "2023-12-29",
+      "price": 24281,
+      "prev_date": "2023-12-22",
+      "prev_price": 24179,
+      "change_pct": 0.42,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W51",
+      "date": "2023-12-22",
+      "price": 24179,
+      "prev_date": "2023-12-15",
+      "prev_price": 24063,
+      "change_pct": 0.48,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W50",
+      "date": "2023-12-15",
+      "price": 24063,
+      "prev_date": "2023-12-08",
+      "prev_price": 23497,
+      "change_pct": 2.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W49",
+      "date": "2023-12-08",
+      "price": 23497,
+      "prev_date": "2023-12-01",
+      "prev_price": 24155,
+      "change_pct": -2.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W48",
+      "date": "2023-12-01",
+      "price": 24155,
+      "prev_date": "2023-11-24",
+      "prev_price": 24370,
+      "change_pct": -0.88,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W47",
+      "date": "2023-11-24",
+      "price": 24370,
+      "prev_date": "2023-11-17",
+      "prev_price": 24291,
+      "change_pct": 0.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W46",
+      "date": "2023-11-17",
+      "price": 24291,
+      "prev_date": "2023-11-10",
+      "prev_price": 23511,
+      "change_pct": 3.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W45",
+      "date": "2023-11-10",
+      "price": 23511,
+      "prev_date": "2023-11-02",
+      "prev_price": 22787,
+      "change_pct": 3.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W44",
+      "date": "2023-11-02",
+      "price": 22787,
+      "prev_date": "2023-10-27",
+      "prev_price": 22207,
+      "change_pct": 2.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W43",
+      "date": "2023-10-27",
+      "price": 22207,
+      "prev_date": "2023-10-20",
+      "prev_price": 22897,
+      "change_pct": -3.01,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W42",
+      "date": "2023-10-20",
+      "price": 22897,
+      "prev_date": "2023-10-13",
+      "prev_price": 23276,
+      "change_pct": -1.63,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W41",
+      "date": "2023-10-13",
+      "price": 23276,
+      "prev_date": "2023-10-06",
+      "prev_price": 22600,
+      "change_pct": 2.99,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W40",
+      "date": "2023-10-06",
+      "price": 22600,
+      "prev_date": "2023-09-29",
+      "prev_price": 22940,
+      "change_pct": -1.48,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W39",
+      "date": "2023-09-29",
+      "price": 22940,
+      "prev_date": "2023-09-22",
+      "prev_price": 22803,
+      "change_pct": 0.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W38",
+      "date": "2023-09-22",
+      "price": 22803,
+      "prev_date": "2023-09-15",
+      "prev_price": 23715,
+      "change_pct": -3.85,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W37",
+      "date": "2023-09-15",
+      "price": 23715,
+      "prev_date": "2023-09-08",
+      "prev_price": 23327,
+      "change_pct": 1.66,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W36",
+      "date": "2023-09-08",
+      "price": 23327,
+      "prev_date": "2023-09-01",
+      "prev_price": 23411,
+      "change_pct": -0.36,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W35",
+      "date": "2023-09-01",
+      "price": 23411,
+      "prev_date": "2023-08-25",
+      "prev_price": 22795,
+      "change_pct": 2.7,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W34",
+      "date": "2023-08-25",
+      "price": 22795,
+      "prev_date": "2023-08-18",
+      "prev_price": 22682,
+      "change_pct": 0.5,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W33",
+      "date": "2023-08-18",
+      "price": 22682,
+      "prev_date": "2023-08-10",
+      "prev_price": 22892,
+      "change_pct": -0.92,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W32",
+      "date": "2023-08-10",
+      "price": 22892,
+      "prev_date": "2023-08-04",
+      "prev_price": 22890,
+      "change_pct": 0.01,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W31",
+      "date": "2023-08-04",
+      "price": 22890,
+      "prev_date": "2023-07-28",
+      "prev_price": 22526,
+      "change_pct": 1.62,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W30",
+      "date": "2023-07-28",
+      "price": 22526,
+      "prev_date": "2023-07-21",
+      "prev_price": 22602,
+      "change_pct": -0.34,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W29",
+      "date": "2023-07-21",
+      "price": 22602,
+      "prev_date": "2023-07-14",
+      "prev_price": 22147,
+      "change_pct": 2.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W28",
+      "date": "2023-07-14",
+      "price": 22147,
+      "prev_date": "2023-07-07",
+      "prev_price": 22618,
+      "change_pct": -2.08,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W27",
+      "date": "2023-07-07",
+      "price": 22618,
+      "prev_date": "2023-06-30",
+      "prev_price": 22664,
+      "change_pct": -0.2,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W26",
+      "date": "2023-06-30",
+      "price": 22664,
+      "prev_date": "2023-06-23",
+      "prev_price": 22304,
+      "change_pct": 1.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W25",
+      "date": "2023-06-23",
+      "price": 22304,
+      "prev_date": "2023-06-16",
+      "prev_price": 22076,
+      "change_pct": 1.03,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W24",
+      "date": "2023-06-16",
+      "price": 22076,
+      "prev_date": "2023-06-09",
+      "prev_price": 21232,
+      "change_pct": 3.98,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W23",
+      "date": "2023-06-09",
+      "price": 21232,
+      "prev_date": "2023-06-02",
+      "prev_price": 20842,
+      "change_pct": 1.87,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W22",
+      "date": "2023-06-02",
+      "price": 20842,
+      "prev_date": "2023-05-26",
+      "prev_price": 20621,
+      "change_pct": 1.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W21",
+      "date": "2023-05-26",
+      "price": 20621,
+      "prev_date": "2023-05-19",
+      "prev_price": 20630,
+      "change_pct": -0.04,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W20",
+      "date": "2023-05-19",
+      "price": 20630,
+      "prev_date": "2023-05-12",
+      "prev_price": 19731,
+      "change_pct": 4.56,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W19",
+      "date": "2023-05-12",
+      "price": 19731,
+      "prev_date": "2023-05-02",
+      "prev_price": 20349,
+      "change_pct": -3.04,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W18",
+      "date": "2023-05-02",
+      "price": 20349,
+      "prev_date": "2023-04-28",
+      "prev_price": 19670,
+      "change_pct": 3.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W17",
+      "date": "2023-04-28",
+      "price": 19670,
+      "prev_date": "2023-04-21",
+      "prev_price": 19670,
+      "change_pct": 0.0,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W16",
+      "date": "2023-04-21",
+      "price": 19670,
+      "prev_date": "2023-04-14",
+      "prev_price": 19494,
+      "change_pct": 0.9,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W15",
+      "date": "2023-04-14",
+      "price": 19494,
+      "prev_date": "2023-04-07",
+      "prev_price": 19178,
+      "change_pct": 1.65,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W14",
+      "date": "2023-04-07",
+      "price": 19178,
+      "prev_date": "2023-03-31",
+      "prev_price": 19167,
+      "change_pct": 0.06,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W13",
+      "date": "2023-03-31",
+      "price": 19167,
+      "prev_date": "2023-03-24",
+      "prev_price": 18280,
+      "change_pct": 4.85,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W12",
+      "date": "2023-03-24",
+      "price": 18280,
+      "prev_date": "2023-03-17",
+      "prev_price": 18735,
+      "change_pct": -2.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W11",
+      "date": "2023-03-17",
+      "price": 18735,
+      "prev_date": "2023-03-10",
+      "prev_price": 18872,
+      "change_pct": -0.73,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W10",
+      "date": "2023-03-10",
+      "price": 18872,
+      "prev_date": "2023-03-03",
+      "prev_price": 19265,
+      "change_pct": -2.04,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W09",
+      "date": "2023-03-03",
+      "price": 19265,
+      "prev_date": "2023-02-24",
+      "prev_price": 19051,
+      "change_pct": 1.12,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W08",
+      "date": "2023-02-24",
+      "price": 19051,
+      "prev_date": "2023-02-17",
+      "prev_price": 19448,
+      "change_pct": -2.04,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W07",
+      "date": "2023-02-17",
+      "price": 19448,
+      "prev_date": "2023-02-10",
+      "prev_price": 19004,
+      "change_pct": 2.34,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W06",
+      "date": "2023-02-10",
+      "price": 19004,
+      "prev_date": "2023-02-03",
+      "prev_price": 19018,
+      "change_pct": -0.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W05",
+      "date": "2023-02-03",
+      "price": 19018,
+      "prev_date": "2023-01-27",
+      "prev_price": 18593,
+      "change_pct": 2.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W04",
+      "date": "2023-01-27",
+      "price": 18593,
+      "prev_date": "2023-01-20",
+      "prev_price": 17731,
+      "change_pct": 4.86,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W03",
+      "date": "2023-01-20",
+      "price": 17731,
+      "prev_date": "2023-01-13",
+      "prev_price": 18192,
+      "change_pct": -2.53,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W02",
+      "date": "2023-01-13",
+      "price": 18192,
+      "prev_date": "2023-01-06",
+      "prev_price": 17987,
+      "change_pct": 1.14,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2023-W01",
+      "date": "2023-01-06",
+      "price": 17987,
+      "prev_date": "2022-12-30",
+      "prev_price": 18035,
+      "change_pct": -0.27,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W52",
+      "date": "2022-12-30",
+      "price": 18035,
+      "prev_date": "2022-12-23",
+      "prev_price": 17915,
+      "change_pct": 0.67,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W51",
+      "date": "2022-12-23",
+      "price": 17915,
+      "prev_date": "2022-12-16",
+      "prev_price": 18938,
+      "change_pct": -5.4,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W50",
+      "date": "2022-12-16",
+      "price": 18938,
+      "prev_date": "2022-12-09",
+      "prev_price": 19153,
+      "change_pct": -1.12,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W49",
+      "date": "2022-12-09",
+      "price": 19153,
+      "prev_date": "2022-12-02",
+      "prev_price": 19500,
+      "change_pct": -1.78,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W48",
+      "date": "2022-12-02",
+      "price": 19500,
+      "prev_date": "2022-11-25",
+      "prev_price": 19753,
+      "change_pct": -1.28,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W47",
+      "date": "2022-11-25",
+      "price": 19753,
+      "prev_date": "2022-11-18",
+      "prev_price": 19519,
+      "change_pct": 1.2,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W46",
+      "date": "2022-11-18",
+      "price": 19519,
+      "prev_date": "2022-11-11",
+      "prev_price": 19775,
+      "change_pct": -1.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W45",
+      "date": "2022-11-11",
+      "price": 19775,
+      "prev_date": "2022-11-04",
+      "prev_price": 19433,
+      "change_pct": 1.76,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W44",
+      "date": "2022-11-04",
+      "price": 19433,
+      "prev_date": "2022-10-28",
+      "prev_price": 19661,
+      "change_pct": -1.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W43",
+      "date": "2022-10-28",
+      "price": 19661,
+      "prev_date": "2022-10-21",
+      "prev_price": 19393,
+      "change_pct": 1.38,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W42",
+      "date": "2022-10-21",
+      "price": 19393,
+      "prev_date": "2022-10-14",
+      "prev_price": 19046,
+      "change_pct": 1.82,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W41",
+      "date": "2022-10-14",
+      "price": 19046,
+      "prev_date": "2022-10-07",
+      "prev_price": 19100,
+      "change_pct": -0.28,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W40",
+      "date": "2022-10-07",
+      "price": 19100,
+      "prev_date": "2022-09-30",
+      "prev_price": 18548,
+      "change_pct": 2.98,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W39",
+      "date": "2022-09-30",
+      "price": 18548,
+      "prev_date": "2022-09-22",
+      "prev_price": 19264,
+      "change_pct": -3.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W38",
+      "date": "2022-09-22",
+      "price": 19264,
+      "prev_date": "2022-09-16",
+      "prev_price": 19637,
+      "change_pct": -1.9,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W37",
+      "date": "2022-09-16",
+      "price": 19637,
+      "prev_date": "2022-09-09",
+      "prev_price": 20255,
+      "change_pct": -3.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W36",
+      "date": "2022-09-09",
+      "price": 20255,
+      "prev_date": "2022-09-02",
+      "prev_price": 19533,
+      "change_pct": 3.7,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W35",
+      "date": "2022-09-02",
+      "price": 19533,
+      "prev_date": "2022-08-26",
+      "prev_price": 20175,
+      "change_pct": -3.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W34",
+      "date": "2022-08-26",
+      "price": 20175,
+      "prev_date": "2022-08-19",
+      "prev_price": 20512,
+      "change_pct": -1.64,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W33",
+      "date": "2022-08-19",
+      "price": 20512,
+      "prev_date": "2022-08-12",
+      "prev_price": 19690,
+      "change_pct": 4.17,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W32",
+      "date": "2022-08-12",
+      "price": 19690,
+      "prev_date": "2022-08-05",
+      "prev_price": 19384,
+      "change_pct": 1.58,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W31",
+      "date": "2022-08-05",
+      "price": 19384,
+      "prev_date": "2022-07-29",
+      "prev_price": 19236,
+      "change_pct": 0.77,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W30",
+      "date": "2022-07-29",
+      "price": 19236,
+      "prev_date": "2022-07-22",
+      "prev_price": 19270,
+      "change_pct": -0.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W29",
+      "date": "2022-07-22",
+      "price": 19270,
+      "prev_date": "2022-07-15",
+      "prev_price": 18476,
+      "change_pct": 4.3,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W28",
+      "date": "2022-07-15",
+      "price": 18476,
+      "prev_date": "2022-07-08",
+      "prev_price": 18625,
+      "change_pct": -0.8,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W27",
+      "date": "2022-07-08",
+      "price": 18625,
+      "prev_date": "2022-07-01",
+      "prev_price": 18052,
+      "change_pct": 3.17,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W26",
+      "date": "2022-07-01",
+      "price": 18052,
+      "prev_date": "2022-06-24",
+      "prev_price": 17994,
+      "change_pct": 0.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W25",
+      "date": "2022-06-24",
+      "price": 17994,
+      "prev_date": "2022-06-17",
+      "prev_price": 17125,
+      "change_pct": 5.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W24",
+      "date": "2022-06-17",
+      "price": 17125,
+      "prev_date": "2022-06-10",
+      "prev_price": 18895,
+      "change_pct": -9.37,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W23",
+      "date": "2022-06-10",
+      "price": 18895,
+      "prev_date": "2022-06-03",
+      "prev_price": 18995,
+      "change_pct": -0.53,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W22",
+      "date": "2022-06-03",
+      "price": 18995,
+      "prev_date": "2022-05-27",
+      "prev_price": 18048,
+      "change_pct": 5.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W21",
+      "date": "2022-05-27",
+      "price": 18048,
+      "prev_date": "2022-05-20",
+      "prev_price": 17459,
+      "change_pct": 3.37,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W20",
+      "date": "2022-05-20",
+      "price": 17459,
+      "prev_date": "2022-05-13",
+      "prev_price": 17727,
+      "change_pct": -1.51,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W19",
+      "date": "2022-05-13",
+      "price": 17727,
+      "prev_date": "2022-05-06",
+      "prev_price": 18929,
+      "change_pct": -6.35,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W18",
+      "date": "2022-05-06",
+      "price": 18929,
+      "prev_date": "2022-04-28",
+      "prev_price": 18851,
+      "change_pct": 0.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W17",
+      "date": "2022-04-28",
+      "price": 18851,
+      "prev_date": "2022-04-22",
+      "prev_price": 19762,
+      "change_pct": -4.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W16",
+      "date": "2022-04-22",
+      "price": 19762,
+      "prev_date": "2022-04-15",
+      "prev_price": 19406,
+      "change_pct": 1.83,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W15",
+      "date": "2022-04-15",
+      "price": 19406,
+      "prev_date": "2022-04-08",
+      "prev_price": 19472,
+      "change_pct": -0.34,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W14",
+      "date": "2022-04-08",
+      "price": 19472,
+      "prev_date": "2022-04-01",
+      "prev_price": 19347,
+      "change_pct": 0.65,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W13",
+      "date": "2022-04-01",
+      "price": 19347,
+      "prev_date": "2022-03-25",
+      "prev_price": 19279,
+      "change_pct": 0.35,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W12",
+      "date": "2022-03-25",
+      "price": 19279,
+      "prev_date": "2022-03-18",
+      "prev_price": 18292,
+      "change_pct": 5.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W11",
+      "date": "2022-03-18",
+      "price": 18292,
+      "prev_date": "2022-03-11",
+      "prev_price": 17304,
+      "change_pct": 5.71,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W10",
+      "date": "2022-03-11",
+      "price": 17304,
+      "prev_date": "2022-03-04",
+      "prev_price": 17583,
+      "change_pct": -1.59,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W09",
+      "date": "2022-03-04",
+      "price": 17583,
+      "prev_date": "2022-02-25",
+      "prev_price": 17299,
+      "change_pct": 1.64,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W08",
+      "date": "2022-02-25",
+      "price": 17299,
+      "prev_date": "2022-02-18",
+      "prev_price": 17569,
+      "change_pct": -1.54,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W07",
+      "date": "2022-02-18",
+      "price": 17569,
+      "prev_date": "2022-02-10",
+      "prev_price": 18495,
+      "change_pct": -5.01,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W06",
+      "date": "2022-02-10",
+      "price": 18495,
+      "prev_date": "2022-02-04",
+      "prev_price": 17955,
+      "change_pct": 3.01,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W05",
+      "date": "2022-02-04",
+      "price": 17955,
+      "prev_date": "2022-01-28",
+      "prev_price": 17415,
+      "change_pct": 3.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W04",
+      "date": "2022-01-28",
+      "price": 17415,
+      "prev_date": "2022-01-21",
+      "prev_price": 17789,
+      "change_pct": -2.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W03",
+      "date": "2022-01-21",
+      "price": 17789,
+      "prev_date": "2022-01-14",
+      "prev_price": 18530,
+      "change_pct": -4.0,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W02",
+      "date": "2022-01-14",
+      "price": 18530,
+      "prev_date": "2022-01-07",
+      "prev_price": 18978,
+      "change_pct": -2.36,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2022-W01",
+      "date": "2022-01-07",
+      "price": 18978,
+      "prev_date": "2021-12-30",
+      "prev_price": 19204,
+      "change_pct": -1.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W52",
+      "date": "2021-12-30",
+      "price": 19204,
+      "prev_date": "2021-12-24",
+      "prev_price": 18849,
+      "change_pct": 1.88,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W51",
+      "date": "2021-12-24",
+      "price": 18849,
+      "prev_date": "2021-12-17",
+      "prev_price": 18515,
+      "change_pct": 1.8,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W50",
+      "date": "2021-12-17",
+      "price": 18515,
+      "prev_date": "2021-12-10",
+      "prev_price": 18441,
+      "change_pct": 0.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W49",
+      "date": "2021-12-10",
+      "price": 18441,
+      "prev_date": "2021-12-03",
+      "prev_price": 18022,
+      "change_pct": 2.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W48",
+      "date": "2021-12-03",
+      "price": 18022,
+      "prev_date": "2021-11-26",
+      "prev_price": 18804,
+      "change_pct": -4.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W47",
+      "date": "2021-11-26",
+      "price": 18804,
+      "prev_date": "2021-11-19",
+      "prev_price": 18720,
+      "change_pct": 0.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W46",
+      "date": "2021-11-19",
+      "price": 18720,
+      "prev_date": "2021-11-12",
+      "prev_price": 18475,
+      "change_pct": 1.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W45",
+      "date": "2021-11-12",
+      "price": 18475,
+      "prev_date": "2021-11-05",
+      "prev_price": 18515,
+      "change_pct": -0.22,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W44",
+      "date": "2021-11-05",
+      "price": 18515,
+      "prev_date": "2021-10-29",
+      "prev_price": 18163,
+      "change_pct": 1.94,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W43",
+      "date": "2021-10-29",
+      "price": 18163,
+      "prev_date": "2021-10-22",
+      "prev_price": 18035,
+      "change_pct": 0.71,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W42",
+      "date": "2021-10-22",
+      "price": 18035,
+      "prev_date": "2021-10-15",
+      "prev_price": 17570,
+      "change_pct": 2.65,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W41",
+      "date": "2021-10-15",
+      "price": 17570,
+      "prev_date": "2021-10-08",
+      "prev_price": 17085,
+      "change_pct": 2.84,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W40",
+      "date": "2021-10-08",
+      "price": 17085,
+      "prev_date": "2021-10-01",
+      "prev_price": 16677,
+      "change_pct": 2.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W39",
+      "date": "2021-10-01",
+      "price": 16677,
+      "prev_date": "2021-09-24",
+      "prev_price": 17063,
+      "change_pct": -2.26,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W38",
+      "date": "2021-09-24",
+      "price": 17063,
+      "prev_date": "2021-09-17",
+      "prev_price": 17065,
+      "change_pct": -0.01,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W37",
+      "date": "2021-09-17",
+      "price": 17065,
+      "prev_date": "2021-09-10",
+      "prev_price": 17130,
+      "change_pct": -0.38,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W36",
+      "date": "2021-09-10",
+      "price": 17130,
+      "prev_date": "2021-09-03",
+      "prev_price": 17319,
+      "change_pct": -1.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W35",
+      "date": "2021-09-03",
+      "price": 17319,
+      "prev_date": "2021-08-27",
+      "prev_price": 17067,
+      "change_pct": 1.48,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W34",
+      "date": "2021-08-27",
+      "price": 17067,
+      "prev_date": "2021-08-20",
+      "prev_price": 16802,
+      "change_pct": 1.58,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W33",
+      "date": "2021-08-20",
+      "price": 16802,
+      "prev_date": "2021-08-13",
+      "prev_price": 17095,
+      "change_pct": -1.71,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W32",
+      "date": "2021-08-13",
+      "price": 17095,
+      "prev_date": "2021-08-06",
+      "prev_price": 16878,
+      "change_pct": 1.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W31",
+      "date": "2021-08-06",
+      "price": 16878,
+      "prev_date": "2021-07-30",
+      "prev_price": 16777,
+      "change_pct": 0.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W30",
+      "date": "2021-07-30",
+      "price": 16777,
+      "prev_date": "2021-07-21",
+      "prev_price": 16482,
+      "change_pct": 1.79,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W29",
+      "date": "2021-07-21",
+      "price": 16482,
+      "prev_date": "2021-07-16",
+      "prev_price": 16612,
+      "change_pct": -0.78,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W28",
+      "date": "2021-07-16",
+      "price": 16612,
+      "prev_date": "2021-07-09",
+      "prev_price": 16462,
+      "change_pct": 0.91,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W27",
+      "date": "2021-07-09",
+      "price": 16462,
+      "prev_date": "2021-07-02",
+      "prev_price": 16714,
+      "change_pct": -1.51,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W26",
+      "date": "2021-07-02",
+      "price": 16714,
+      "prev_date": "2021-06-25",
+      "prev_price": 16406,
+      "change_pct": 1.88,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W25",
+      "date": "2021-06-25",
+      "price": 16406,
+      "prev_date": "2021-06-18",
+      "prev_price": 16135,
+      "change_pct": 1.68,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W24",
+      "date": "2021-06-18",
+      "price": 16135,
+      "prev_date": "2021-06-11",
+      "prev_price": 16069,
+      "change_pct": 0.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W23",
+      "date": "2021-06-11",
+      "price": 16069,
+      "prev_date": "2021-06-04",
+      "prev_price": 16011,
+      "change_pct": 0.36,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W22",
+      "date": "2021-06-04",
+      "price": 16011,
+      "prev_date": "2021-05-28",
+      "prev_price": 15992,
+      "change_pct": 0.12,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W21",
+      "date": "2021-05-28",
+      "price": 15992,
+      "prev_date": "2021-05-21",
+      "prev_price": 15675,
+      "change_pct": 2.02,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W20",
+      "date": "2021-05-21",
+      "price": 15675,
+      "prev_date": "2021-05-14",
+      "prev_price": 15598,
+      "change_pct": 0.49,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W19",
+      "date": "2021-05-14",
+      "price": 15598,
+      "prev_date": "2021-05-07",
+      "prev_price": 15859,
+      "change_pct": -1.65,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W18",
+      "date": "2021-05-07",
+      "price": 15859,
+      "prev_date": "2021-04-30",
+      "prev_price": 15861,
+      "change_pct": -0.01,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W17",
+      "date": "2021-04-30",
+      "price": 15861,
+      "prev_date": "2021-04-23",
+      "prev_price": 15431,
+      "change_pct": 2.79,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W16",
+      "date": "2021-04-23",
+      "price": 15431,
+      "prev_date": "2021-04-16",
+      "prev_price": 15675,
+      "change_pct": -1.56,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W15",
+      "date": "2021-04-16",
+      "price": 15675,
+      "prev_date": "2021-04-09",
+      "prev_price": 15481,
+      "change_pct": 1.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W14",
+      "date": "2021-04-09",
+      "price": 15481,
+      "prev_date": "2021-04-02",
+      "prev_price": 15371,
+      "change_pct": 0.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W13",
+      "date": "2021-04-02",
+      "price": 15371,
+      "prev_date": "2021-03-26",
+      "prev_price": 14765,
+      "change_pct": 4.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W12",
+      "date": "2021-03-26",
+      "price": 14765,
+      "prev_date": "2021-03-19",
+      "prev_price": 14757,
+      "change_pct": 0.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W11",
+      "date": "2021-03-19",
+      "price": 14757,
+      "prev_date": "2021-03-12",
+      "prev_price": 14775,
+      "change_pct": -0.12,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W10",
+      "date": "2021-03-12",
+      "price": 14775,
+      "prev_date": "2021-03-05",
+      "prev_price": 14039,
+      "change_pct": 5.24,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W09",
+      "date": "2021-03-05",
+      "price": 14039,
+      "prev_date": "2021-02-26",
+      "prev_price": 14043,
+      "change_pct": -0.03,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W08",
+      "date": "2021-02-26",
+      "price": 14043,
+      "prev_date": "2021-02-19",
+      "prev_price": 14278,
+      "change_pct": -1.65,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W07",
+      "date": "2021-02-19",
+      "price": 14278,
+      "prev_date": "2021-02-12",
+      "prev_price": 14151,
+      "change_pct": 0.9,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W06",
+      "date": "2021-02-12",
+      "price": 14151,
+      "prev_date": "2021-02-05",
+      "prev_price": 14090,
+      "change_pct": 0.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W05",
+      "date": "2021-02-05",
+      "price": 14090,
+      "prev_date": "2021-01-29",
+      "prev_price": 13641,
+      "change_pct": 3.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W04",
+      "date": "2021-01-29",
+      "price": 13641,
+      "prev_date": "2021-01-22",
+      "prev_price": 13751,
+      "change_pct": -0.8,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W03",
+      "date": "2021-01-22",
+      "price": 13751,
+      "prev_date": "2021-01-15",
+      "prev_price": 13586,
+      "change_pct": 1.21,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W02",
+      "date": "2021-01-15",
+      "price": 13586,
+      "prev_date": "2021-01-08",
+      "prev_price": 13613,
+      "change_pct": -0.2,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2021-W01",
+      "date": "2021-01-08",
+      "price": 13613,
+      "prev_date": "2020-12-30",
+      "prev_price": 13288,
+      "change_pct": 2.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W53",
+      "date": "2020-12-30",
+      "price": 13288,
+      "prev_date": "2020-12-25",
+      "prev_price": 13200,
+      "change_pct": 0.67,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W52",
+      "date": "2020-12-25",
+      "price": 13200,
+      "prev_date": "2020-12-18",
+      "prev_price": 13228,
+      "change_pct": -0.21,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W51",
+      "date": "2020-12-18",
+      "price": 13228,
+      "prev_date": "2020-12-11",
+      "prev_price": 13128,
+      "change_pct": 0.76,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W50",
+      "date": "2020-12-11",
+      "price": 13128,
+      "prev_date": "2020-12-04",
+      "prev_price": 13098,
+      "change_pct": 0.23,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W49",
+      "date": "2020-12-04",
+      "price": 13098,
+      "prev_date": "2020-11-27",
+      "prev_price": 13000,
+      "change_pct": 0.75,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W48",
+      "date": "2020-11-27",
+      "price": 13000,
+      "prev_date": "2020-11-20",
+      "prev_price": 12794,
+      "change_pct": 1.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W47",
+      "date": "2020-11-20",
+      "price": 12794,
+      "prev_date": "2020-11-13",
+      "prev_price": 12764,
+      "change_pct": 0.24,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W46",
+      "date": "2020-11-13",
+      "price": 12764,
+      "prev_date": "2020-11-06",
+      "prev_price": 12507,
+      "change_pct": 2.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W45",
+      "date": "2020-11-06",
+      "price": 12507,
+      "prev_date": "2020-10-30",
+      "prev_price": 11892,
+      "change_pct": 5.17,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W44",
+      "date": "2020-10-30",
+      "price": 11892,
+      "prev_date": "2020-10-23",
+      "prev_price": 12419,
+      "change_pct": -4.24,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W43",
+      "date": "2020-10-23",
+      "price": 12419,
+      "prev_date": "2020-10-16",
+      "prev_price": 12602,
+      "change_pct": -1.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W42",
+      "date": "2020-10-16",
+      "price": 12602,
+      "prev_date": "2020-10-09",
+      "prev_price": 12542,
+      "change_pct": 0.48,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W41",
+      "date": "2020-10-09",
+      "price": 12542,
+      "prev_date": "2020-10-02",
+      "prev_price": 12249,
+      "change_pct": 2.39,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W40",
+      "date": "2020-10-02",
+      "price": 12249,
+      "prev_date": "2020-09-25",
+      "prev_price": 11761,
+      "change_pct": 4.15,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W39",
+      "date": "2020-09-25",
+      "price": 11761,
+      "prev_date": "2020-09-18",
+      "prev_price": 12076,
+      "change_pct": -2.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W38",
+      "date": "2020-09-18",
+      "price": 12076,
+      "prev_date": "2020-09-11",
+      "prev_price": 12158,
+      "change_pct": -0.67,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W37",
+      "date": "2020-09-11",
+      "price": 12158,
+      "prev_date": "2020-09-04",
+      "prev_price": 12579,
+      "change_pct": -3.35,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W36",
+      "date": "2020-09-04",
+      "price": 12579,
+      "prev_date": "2020-08-28",
+      "prev_price": 12740,
+      "change_pct": -1.26,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W35",
+      "date": "2020-08-28",
+      "price": 12740,
+      "prev_date": "2020-08-21",
+      "prev_price": 12263,
+      "change_pct": 3.89,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W34",
+      "date": "2020-08-21",
+      "price": 12263,
+      "prev_date": "2020-08-14",
+      "prev_price": 12363,
+      "change_pct": -0.81,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W33",
+      "date": "2020-08-14",
+      "price": 12363,
+      "prev_date": "2020-08-07",
+      "prev_price": 12108,
+      "change_pct": 2.11,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W32",
+      "date": "2020-08-07",
+      "price": 12108,
+      "prev_date": "2020-07-31",
+      "prev_price": 11626,
+      "change_pct": 4.15,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W31",
+      "date": "2020-07-31",
+      "price": 11626,
+      "prev_date": "2020-07-22",
+      "prev_price": 11916,
+      "change_pct": -2.43,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W30",
+      "date": "2020-07-22",
+      "price": 11916,
+      "prev_date": "2020-07-17",
+      "prev_price": 11803,
+      "change_pct": 0.96,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W29",
+      "date": "2020-07-17",
+      "price": 11803,
+      "prev_date": "2020-07-10",
+      "prev_price": 11555,
+      "change_pct": 2.15,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W28",
+      "date": "2020-07-10",
+      "price": 11555,
+      "prev_date": "2020-07-03",
+      "prev_price": 11516,
+      "change_pct": 0.34,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W27",
+      "date": "2020-07-03",
+      "price": 11516,
+      "prev_date": "2020-06-26",
+      "prev_price": 11296,
+      "change_pct": 1.95,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W26",
+      "date": "2020-06-26",
+      "price": 11296,
+      "prev_date": "2020-06-19",
+      "prev_price": 11391,
+      "change_pct": -0.83,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W25",
+      "date": "2020-06-19",
+      "price": 11391,
+      "prev_date": "2020-06-12",
+      "prev_price": 10949,
+      "change_pct": 4.04,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W24",
+      "date": "2020-06-12",
+      "price": 10949,
+      "prev_date": "2020-06-05",
+      "prev_price": 11603,
+      "change_pct": -5.64,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W23",
+      "date": "2020-06-05",
+      "price": 11603,
+      "prev_date": "2020-05-29",
+      "prev_price": 11130,
+      "change_pct": 4.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W22",
+      "date": "2020-05-29",
+      "price": 11130,
+      "prev_date": "2020-05-22",
+      "prev_price": 10848,
+      "change_pct": 2.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W21",
+      "date": "2020-05-22",
+      "price": 10848,
+      "prev_date": "2020-05-15",
+      "prev_price": 10461,
+      "change_pct": 3.7,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W20",
+      "date": "2020-05-15",
+      "price": 10461,
+      "prev_date": "2020-05-08",
+      "prev_price": 10456,
+      "change_pct": 0.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W19",
+      "date": "2020-05-08",
+      "price": 10456,
+      "prev_date": "2020-05-01",
+      "prev_price": 10655,
+      "change_pct": -1.87,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W18",
+      "date": "2020-05-01",
+      "price": 10655,
+      "prev_date": "2020-04-24",
+      "prev_price": 10277,
+      "change_pct": 3.68,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W17",
+      "date": "2020-04-24",
+      "price": 10277,
+      "prev_date": "2020-04-17",
+      "prev_price": 10303,
+      "change_pct": -0.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W16",
+      "date": "2020-04-17",
+      "price": 10303,
+      "prev_date": "2020-04-10",
+      "prev_price": 10329,
+      "change_pct": -0.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W15",
+      "date": "2020-04-10",
+      "price": 10329,
+      "prev_date": "2020-04-03",
+      "prev_price": 9310,
+      "change_pct": 10.95,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W14",
+      "date": "2020-04-03",
+      "price": 9310,
+      "prev_date": "2020-03-27",
+      "prev_price": 9759,
+      "change_pct": -4.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W13",
+      "date": "2020-03-27",
+      "price": 9759,
+      "prev_date": "2020-03-19",
+      "prev_price": 8904,
+      "change_pct": 9.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W12",
+      "date": "2020-03-19",
+      "price": 8904,
+      "prev_date": "2020-03-13",
+      "prev_price": 8885,
+      "change_pct": 0.21,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W11",
+      "date": "2020-03-13",
+      "price": 8885,
+      "prev_date": "2020-03-06",
+      "prev_price": 10936,
+      "change_pct": -18.75,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W10",
+      "date": "2020-03-06",
+      "price": 10936,
+      "prev_date": "2020-02-28",
+      "prev_price": 11089,
+      "change_pct": -1.38,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W09",
+      "date": "2020-02-28",
+      "price": 11089,
+      "prev_date": "2020-02-21",
+      "prev_price": 12861,
+      "change_pct": -13.78,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W08",
+      "date": "2020-02-21",
+      "price": 12861,
+      "prev_date": "2020-02-14",
+      "prev_price": 12606,
+      "change_pct": 2.02,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W07",
+      "date": "2020-02-14",
+      "price": 12606,
+      "prev_date": "2020-02-07",
+      "prev_price": 12496,
+      "change_pct": 0.88,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W06",
+      "date": "2020-02-07",
+      "price": 12496,
+      "prev_date": "2020-01-31",
+      "prev_price": 12168,
+      "change_pct": 2.7,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W05",
+      "date": "2020-01-31",
+      "price": 12168,
+      "prev_date": "2020-01-24",
+      "prev_price": 12378,
+      "change_pct": -1.7,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W04",
+      "date": "2020-01-24",
+      "price": 12378,
+      "prev_date": "2020-01-17",
+      "prev_price": 12428,
+      "change_pct": -0.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W03",
+      "date": "2020-01-17",
+      "price": 12428,
+      "prev_date": "2020-01-10",
+      "prev_price": 12185,
+      "change_pct": 1.99,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W02",
+      "date": "2020-01-10",
+      "price": 12185,
+      "prev_date": "2019-12-30",
+      "prev_price": 12047,
+      "change_pct": 1.15,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2020-W01",
+      "date": "2019-12-30",
+      "price": 12047,
+      "prev_date": "2019-12-27",
+      "prev_price": 12060,
+      "change_pct": -0.11,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W52",
+      "date": "2019-12-27",
+      "price": 12060,
+      "prev_date": "2019-12-20",
+      "prev_price": 11902,
+      "change_pct": 1.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W51",
+      "date": "2019-12-20",
+      "price": 11902,
+      "prev_date": "2019-12-13",
+      "prev_price": 11776,
+      "change_pct": 1.07,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W50",
+      "date": "2019-12-13",
+      "price": 11776,
+      "prev_date": "2019-12-06",
+      "prev_price": 11504,
+      "change_pct": 2.36,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W49",
+      "date": "2019-12-06",
+      "price": 11504,
+      "prev_date": "2019-11-29",
+      "prev_price": 11711,
+      "change_pct": -1.77,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W48",
+      "date": "2019-11-29",
+      "price": 11711,
+      "prev_date": "2019-11-22",
+      "prev_price": 11431,
+      "change_pct": 2.45,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W47",
+      "date": "2019-11-22",
+      "price": 11431,
+      "prev_date": "2019-11-15",
+      "prev_price": 11394,
+      "change_pct": 0.32,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W46",
+      "date": "2019-11-15",
+      "price": 11394,
+      "prev_date": "2019-11-08",
+      "prev_price": 11427,
+      "change_pct": -0.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W45",
+      "date": "2019-11-08",
+      "price": 11427,
+      "prev_date": "2019-11-01",
+      "prev_price": 11106,
+      "change_pct": 2.89,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W44",
+      "date": "2019-11-01",
+      "price": 11106,
+      "prev_date": "2019-10-25",
+      "prev_price": 11076,
+      "change_pct": 0.27,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W43",
+      "date": "2019-10-25",
+      "price": 11076,
+      "prev_date": "2019-10-18",
+      "prev_price": 11028,
+      "change_pct": 0.44,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W42",
+      "date": "2019-10-18",
+      "price": 11028,
+      "prev_date": "2019-10-11",
+      "prev_price": 10749,
+      "change_pct": 2.6,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W41",
+      "date": "2019-10-11",
+      "price": 10749,
+      "prev_date": "2019-10-04",
+      "prev_price": 10520,
+      "change_pct": 2.18,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W40",
+      "date": "2019-10-04",
+      "price": 10520,
+      "prev_date": "2019-09-27",
+      "prev_price": 10856,
+      "change_pct": -3.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W39",
+      "date": "2019-09-27",
+      "price": 10856,
+      "prev_date": "2019-09-20",
+      "prev_price": 10983,
+      "change_pct": -1.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W38",
+      "date": "2019-09-20",
+      "price": 10983,
+      "prev_date": "2019-09-13",
+      "prev_price": 11010,
+      "change_pct": -0.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W37",
+      "date": "2019-09-13",
+      "price": 11010,
+      "prev_date": "2019-09-06",
+      "prev_price": 10765,
+      "change_pct": 2.28,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W36",
+      "date": "2019-09-06",
+      "price": 10765,
+      "prev_date": "2019-08-30",
+      "prev_price": 10515,
+      "change_pct": 2.38,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W35",
+      "date": "2019-08-30",
+      "price": 10515,
+      "prev_date": "2019-08-23",
+      "prev_price": 10525,
+      "change_pct": -0.1,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W34",
+      "date": "2019-08-23",
+      "price": 10525,
+      "prev_date": "2019-08-16",
+      "prev_price": 10203,
+      "change_pct": 3.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W33",
+      "date": "2019-08-16",
+      "price": 10203,
+      "prev_date": "2019-08-09",
+      "prev_price": 10506,
+      "change_pct": -2.88,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W32",
+      "date": "2019-08-09",
+      "price": 10506,
+      "prev_date": "2019-08-02",
+      "prev_price": 10671,
+      "change_pct": -1.55,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W31",
+      "date": "2019-08-02",
+      "price": 10671,
+      "prev_date": "2019-07-26",
+      "prev_price": 11010,
+      "change_pct": -3.08,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W30",
+      "date": "2019-07-26",
+      "price": 11010,
+      "prev_date": "2019-07-19",
+      "prev_price": 10858,
+      "change_pct": 1.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W29",
+      "date": "2019-07-19",
+      "price": 10858,
+      "prev_date": "2019-07-12",
+      "prev_price": 10973,
+      "change_pct": -1.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W28",
+      "date": "2019-07-12",
+      "price": 10973,
+      "prev_date": "2019-07-05",
+      "prev_price": 10891,
+      "change_pct": 0.75,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W27",
+      "date": "2019-07-05",
+      "price": 10891,
+      "prev_date": "2019-06-28",
+      "prev_price": 10619,
+      "change_pct": 2.56,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W26",
+      "date": "2019-06-28",
+      "price": 10619,
+      "prev_date": "2019-06-21",
+      "prev_price": 10684,
+      "change_pct": -0.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W25",
+      "date": "2019-06-21",
+      "price": 10684,
+      "prev_date": "2019-06-14",
+      "prev_price": 10557,
+      "change_pct": 1.2,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W24",
+      "date": "2019-06-14",
+      "price": 10557,
+      "prev_date": "2019-06-07",
+      "prev_price": 10385,
+      "change_pct": 1.66,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W23",
+      "date": "2019-06-07",
+      "price": 10385,
+      "prev_date": "2019-05-31",
+      "prev_price": 10259,
+      "change_pct": 1.23,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W22",
+      "date": "2019-05-31",
+      "price": 10259,
+      "prev_date": "2019-05-24",
+      "prev_price": 10416,
+      "change_pct": -1.51,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W21",
+      "date": "2019-05-24",
+      "price": 10416,
+      "prev_date": "2019-05-17",
+      "prev_price": 10638,
+      "change_pct": -2.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W20",
+      "date": "2019-05-17",
+      "price": 10638,
+      "prev_date": "2019-05-10",
+      "prev_price": 10595,
+      "change_pct": 0.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W19",
+      "date": "2019-05-10",
+      "price": 10595,
+      "prev_date": "2019-04-26",
+      "prev_price": 10989,
+      "change_pct": -3.59,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W17",
+      "date": "2019-04-26",
+      "price": 10989,
+      "prev_date": "2019-04-19",
+      "prev_price": 10925,
+      "change_pct": 0.59,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W16",
+      "date": "2019-04-19",
+      "price": 10925,
+      "prev_date": "2019-04-12",
+      "prev_price": 10840,
+      "change_pct": 0.78,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W15",
+      "date": "2019-04-12",
+      "price": 10840,
+      "prev_date": "2019-04-05",
+      "prev_price": 10804,
+      "change_pct": 0.33,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W14",
+      "date": "2019-04-05",
+      "price": 10804,
+      "prev_date": "2019-03-29",
+      "prev_price": 10484,
+      "change_pct": 3.05,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W13",
+      "date": "2019-03-29",
+      "price": 10484,
+      "prev_date": "2019-03-22",
+      "prev_price": 10604,
+      "change_pct": -1.13,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W12",
+      "date": "2019-03-22",
+      "price": 10604,
+      "prev_date": "2019-03-15",
+      "prev_price": 10543,
+      "change_pct": 0.58,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W11",
+      "date": "2019-03-15",
+      "price": 10543,
+      "prev_date": "2019-03-08",
+      "prev_price": 10282,
+      "change_pct": 2.54,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W10",
+      "date": "2019-03-08",
+      "price": 10282,
+      "prev_date": "2019-03-01",
+      "prev_price": 10408,
+      "change_pct": -1.21,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W09",
+      "date": "2019-03-01",
+      "price": 10408,
+      "prev_date": "2019-02-22",
+      "prev_price": 10296,
+      "change_pct": 1.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W08",
+      "date": "2019-02-22",
+      "price": 10296,
+      "prev_date": "2019-02-15",
+      "prev_price": 10153,
+      "change_pct": 1.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W07",
+      "date": "2019-02-15",
+      "price": 10153,
+      "prev_date": "2019-02-08",
+      "prev_price": 9945,
+      "change_pct": 2.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W06",
+      "date": "2019-02-08",
+      "price": 9945,
+      "prev_date": "2019-02-01",
+      "prev_price": 9854,
+      "change_pct": 0.92,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W05",
+      "date": "2019-02-01",
+      "price": 9854,
+      "prev_date": "2019-01-25",
+      "prev_price": 9698,
+      "change_pct": 1.61,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W04",
+      "date": "2019-01-25",
+      "price": 9698,
+      "prev_date": "2019-01-18",
+      "prev_price": 9641,
+      "change_pct": 0.59,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W03",
+      "date": "2019-01-18",
+      "price": 9641,
+      "prev_date": "2019-01-11",
+      "prev_price": 9416,
+      "change_pct": 2.39,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W02",
+      "date": "2019-01-11",
+      "price": 9416,
+      "prev_date": "2019-01-04",
+      "prev_price": 8809,
+      "change_pct": 6.89,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2019-W01",
+      "date": "2019-01-04",
+      "price": 8809,
+      "prev_date": "2018-12-28",
+      "prev_price": 9231,
+      "change_pct": -4.57,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W52",
+      "date": "2018-12-28",
+      "price": 9231,
+      "prev_date": "2018-12-21",
+      "prev_price": 9183,
+      "change_pct": 0.52,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W51",
+      "date": "2018-12-21",
+      "price": 9183,
+      "prev_date": "2018-12-14",
+      "prev_price": 10057,
+      "change_pct": -8.69,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W50",
+      "date": "2018-12-14",
+      "price": 10057,
+      "prev_date": "2018-12-07",
+      "prev_price": 10151,
+      "change_pct": -0.93,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W49",
+      "date": "2018-12-07",
+      "price": 10151,
+      "prev_date": "2018-11-30",
+      "prev_price": 10368,
+      "change_pct": -2.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W48",
+      "date": "2018-11-30",
+      "price": 10368,
+      "prev_date": "2018-11-22",
+      "prev_price": 9996,
+      "change_pct": 3.72,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W47",
+      "date": "2018-11-22",
+      "price": 9996,
+      "prev_date": "2018-11-16",
+      "prev_price": 10349,
+      "change_pct": -3.41,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W46",
+      "date": "2018-11-16",
+      "price": 10349,
+      "prev_date": "2018-11-09",
+      "prev_price": 10667,
+      "change_pct": -2.98,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W45",
+      "date": "2018-11-09",
+      "price": 10667,
+      "prev_date": "2018-11-02",
+      "prev_price": 10303,
+      "change_pct": 3.53,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W44",
+      "date": "2018-11-02",
+      "price": 10303,
+      "prev_date": "2018-10-26",
+      "prev_price": 10133,
+      "change_pct": 1.68,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W43",
+      "date": "2018-10-26",
+      "price": 10133,
+      "prev_date": "2018-10-19",
+      "prev_price": 10362,
+      "change_pct": -2.21,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W42",
+      "date": "2018-10-19",
+      "price": 10362,
+      "prev_date": "2018-10-12",
+      "prev_price": 10195,
+      "change_pct": 1.64,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W41",
+      "date": "2018-10-12",
+      "price": 10195,
+      "prev_date": "2018-10-05",
+      "prev_price": 11026,
+      "change_pct": -7.54,
+      "alert": true,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W40",
+      "date": "2018-10-05",
+      "price": 11026,
+      "prev_date": "2018-09-28",
+      "prev_price": 11016,
+      "change_pct": 0.09,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W39",
+      "date": "2018-09-28",
+      "price": 11016,
+      "prev_date": "2018-09-21",
+      "prev_price": 10984,
+      "change_pct": 0.29,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W38",
+      "date": "2018-09-21",
+      "price": 10984,
+      "prev_date": "2018-09-14",
+      "prev_price": 10834,
+      "change_pct": 1.38,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W37",
+      "date": "2018-09-14",
+      "price": 10834,
+      "prev_date": "2018-09-07",
+      "prev_price": 10580,
+      "change_pct": 2.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W36",
+      "date": "2018-09-07",
+      "price": 10580,
+      "prev_date": "2018-08-31",
+      "prev_price": 10714,
+      "change_pct": -1.25,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W35",
+      "date": "2018-08-31",
+      "price": 10714,
+      "prev_date": "2018-08-24",
+      "prev_price": 10592,
+      "change_pct": 1.15,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W34",
+      "date": "2018-08-24",
+      "price": 10592,
+      "prev_date": "2018-08-17",
+      "prev_price": 10473,
+      "change_pct": 1.14,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W33",
+      "date": "2018-08-17",
+      "price": 10473,
+      "prev_date": "2018-08-10",
+      "prev_price": 10515,
+      "change_pct": -0.4,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W32",
+      "date": "2018-08-10",
+      "price": 10515,
+      "prev_date": "2018-08-03",
+      "prev_price": 10497,
+      "change_pct": 0.17,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W31",
+      "date": "2018-08-03",
+      "price": 10497,
+      "prev_date": "2018-07-27",
+      "prev_price": 10469,
+      "change_pct": 0.27,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W30",
+      "date": "2018-07-27",
+      "price": 10469,
+      "prev_date": "2018-07-20",
+      "prev_price": 10486,
+      "change_pct": -0.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W29",
+      "date": "2018-07-20",
+      "price": 10486,
+      "prev_date": "2018-07-13",
+      "prev_price": 10475,
+      "change_pct": 0.11,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W28",
+      "date": "2018-07-13",
+      "price": 10475,
+      "prev_date": "2018-07-06",
+      "prev_price": 10057,
+      "change_pct": 4.16,
+      "alert": false,
+      "is_partial": false
+    },
+    {
+      "week": "2018-W27",
+      "date": "2018-07-06",
+      "price": 10057,
+      "prev_date": null,
+      "prev_price": null,
+      "change_pct": null,
+      "alert": false,
+      "is_partial": false
+    }
+  ]
+}

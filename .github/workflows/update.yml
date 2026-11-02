@@ -1,0 +1,75 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 毎日 09:00 JST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "site/index.html"
+      - "site/app.js"
+      - "site/style.css"
+      - "src/**"
+      - "config.json"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        id: test
+        run: python -m unittest discover -s tests -t . -v
+
+      - name: Update data and notify
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python src/update.py
+
+      # 失敗時もエラー通知の送信時刻（state）を残すため、テスト成功後は常にコミットする
+      - name: Commit data
+        if: ${{ !cancelled() && steps.test.outcome != 'failure' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for f in site/data/data.json state/notified.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "data: update $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

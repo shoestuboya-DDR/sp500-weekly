@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>S&amp;P500 週末チェック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>S&amp;P500 週末チェック</h1>
+    <p class="meta" id="meta">読み込み中…</p>
+  </header>
+
+  <main>
+    <div id="stale" class="banner banner-warn" hidden></div>
+    <div id="alert" class="banner banner-alert" hidden></div>
+
+    <section class="card summary" aria-label="今週の結果">
+      <div class="prices">
+        <div>
+          <div class="label" id="cur-label">今週末</div>
+          <div class="price" id="cur-price">-</div>
+        </div>
+        <div>
+          <div class="label" id="prev-label">前週末</div>
+          <div class="price sub" id="prev-price">-</div>
+        </div>
+      </div>
+      <div class="change-row">
+        <span class="label">前週比</span>
+        <span class="change" id="change">-</span>
+        <span class="badge" id="partial-badge" hidden>速報</span>
+      </div>
+    </section>
+
+    <section class="card" aria-label="推移グラフ">
+      <h2>週末価格の推移</h2>
+      <div class="chart-wrap"><canvas id="chart"></canvas></div>
+    </section>
+
+    <section class="card" aria-label="週ごとの一覧">
+      <h2>週ごとの一覧</h2>
+      <table class="weeks">
+        <thead>
+          <tr>
+            <th class="col-week">週</th>
+            <th>週末日</th>
+            <th class="num">基準価額</th>
+            <th class="num">前週比</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p id="fund"></p>
+    <p>データ: 投資信託協会 投信総合検索ライブラリー（基準価額は1万口あたり）</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
