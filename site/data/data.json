@@ -3,10 +3,11 @@
     "name": "eMAXIS Slim 米国株式(S&P500)",
     "isin": "JP90C000GKC6"
   },
-  "generated_at": "2026-11-04T09:32:04+09:00",
+  "generated_at": "2026-11-04T09:47:14+09:00",
   "source_latest_date": "2026-11-02",
   "source_row_count": 2032,
   "alert_threshold_pct": -5.0,
+  "caution_threshold_pct": -4.0,
   "display_weeks": 52,
   "stale_days": 10,
   "weeks": [
@@ -18,6 +19,7 @@
       "prev_price": 44816,
       "change_pct": -1.65,
       "alert": false,
+      "caution": false,
       "is_partial": true
     },
     {
@@ -28,6 +30,7 @@
       "prev_price": 44192,
       "change_pct": 1.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -38,6 +41,7 @@
       "prev_price": 45135,
       "change_pct": -2.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -48,6 +52,7 @@
       "prev_price": 45246,
       "change_pct": -0.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -58,6 +63,7 @@
       "prev_price": 44658,
       "change_pct": 1.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -68,6 +74,7 @@
       "prev_price": 45049,
       "change_pct": -0.87,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -78,6 +85,7 @@
       "prev_price": 43966,
       "change_pct": 2.46,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -88,6 +96,7 @@
       "prev_price": 43223,
       "change_pct": 1.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -98,6 +107,7 @@
       "prev_price": 44392,
       "change_pct": -2.63,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -108,6 +118,7 @@
       "prev_price": 45344,
       "change_pct": -2.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -118,6 +129,7 @@
       "prev_price": 44740,
       "change_pct": 1.35,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -128,6 +140,7 @@
       "prev_price": 45727,
       "change_pct": -2.16,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -138,6 +151,7 @@
       "prev_price": 44975,
       "change_pct": 1.67,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -148,6 +162,7 @@
       "prev_price": 43950,
       "change_pct": 2.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -158,6 +173,7 @@
       "prev_price": 44669,
       "change_pct": -1.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -168,6 +184,7 @@
       "prev_price": 45008,
       "change_pct": -0.75,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -178,6 +195,7 @@
       "prev_price": 44958,
       "change_pct": 0.11,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -188,6 +206,7 @@
       "prev_price": 44352,
       "change_pct": 1.37,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -198,6 +217,7 @@
       "prev_price": 43772,
       "change_pct": 1.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -208,6 +228,7 @@
       "prev_price": 44418,
       "change_pct": -1.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -218,6 +239,7 @@
       "prev_price": 43507,
       "change_pct": 2.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -228,6 +250,7 @@
       "prev_price": 44577,
       "change_pct": -2.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -238,6 +261,7 @@
       "prev_price": 44260,
       "change_pct": 0.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -248,6 +272,7 @@
       "prev_price": 43511,
       "change_pct": 1.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -258,6 +283,7 @@
       "prev_price": 43645,
       "change_pct": -0.31,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -268,6 +294,7 @@
       "prev_price": 42272,
       "change_pct": 3.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -278,6 +305,7 @@
       "prev_price": 41553,
       "change_pct": 1.73,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -288,6 +316,7 @@
       "prev_price": 41675,
       "change_pct": -0.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -298,6 +327,7 @@
       "prev_price": 41172,
       "change_pct": 1.22,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -308,6 +338,7 @@
       "prev_price": 39868,
       "change_pct": 3.27,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -318,6 +349,7 @@
       "prev_price": 38546,
       "change_pct": 3.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -328,6 +360,7 @@
       "prev_price": 37897,
       "change_pct": 1.71,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -338,6 +371,7 @@
       "prev_price": 38822,
       "change_pct": -2.38,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -348,6 +382,7 @@
       "prev_price": 38942,
       "change_pct": -0.31,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -358,6 +393,7 @@
       "prev_price": 39397,
       "change_pct": -1.15,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -368,6 +404,7 @@
       "prev_price": 39424,
       "change_pct": -0.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -378,6 +415,7 @@
       "prev_price": 38985,
       "change_pct": 1.13,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -388,6 +426,7 @@
       "prev_price": 38255,
       "change_pct": 1.91,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -398,6 +437,7 @@
       "prev_price": 39015,
       "change_pct": -1.95,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -408,6 +448,7 @@
       "prev_price": 39183,
       "change_pct": -0.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -418,6 +459,7 @@
       "prev_price": 40122,
       "change_pct": -2.34,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -428,6 +470,7 @@
       "prev_price": 40337,
       "change_pct": -0.53,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -438,6 +481,7 @@
       "prev_price": 39785,
       "change_pct": 1.39,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -448,6 +492,7 @@
       "prev_price": 39535,
       "change_pct": 0.63,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -458,6 +503,7 @@
       "prev_price": 39668,
       "change_pct": -0.34,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -468,6 +514,7 @@
       "prev_price": 38603,
       "change_pct": 2.76,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -478,6 +525,7 @@
       "prev_price": 39278,
       "change_pct": -1.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -488,6 +536,7 @@
       "prev_price": 38871,
       "change_pct": 1.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -498,6 +547,7 @@
       "prev_price": 38984,
       "change_pct": -0.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -508,6 +558,7 @@
       "prev_price": 37618,
       "change_pct": 3.63,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -518,6 +569,7 @@
       "prev_price": 38066,
       "change_pct": -1.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -528,6 +580,7 @@
       "prev_price": 37592,
       "change_pct": 1.26,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -538,6 +591,7 @@
       "prev_price": 38371,
       "change_pct": -2.03,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -548,6 +602,7 @@
       "prev_price": 37551,
       "change_pct": 2.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -558,6 +613,7 @@
       "prev_price": 36333,
       "change_pct": 3.35,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -568,6 +624,7 @@
       "prev_price": 37623,
       "change_pct": -3.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -578,6 +635,7 @@
       "prev_price": 36112,
       "change_pct": 4.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -588,6 +646,7 @@
       "prev_price": 36086,
       "change_pct": 0.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -598,6 +657,7 @@
       "prev_price": 35812,
       "change_pct": 0.77,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -608,6 +668,7 @@
       "prev_price": 35382,
       "change_pct": 1.22,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -618,6 +679,7 @@
       "prev_price": 35141,
       "change_pct": 0.69,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -628,6 +690,7 @@
       "prev_price": 34812,
       "change_pct": 0.95,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -638,6 +701,7 @@
       "prev_price": 34477,
       "change_pct": 0.97,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -648,6 +712,7 @@
       "prev_price": 34788,
       "change_pct": -0.89,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -658,6 +723,7 @@
       "prev_price": 33997,
       "change_pct": 2.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -668,6 +734,7 @@
       "prev_price": 34806,
       "change_pct": -2.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -678,6 +745,7 @@
       "prev_price": 34153,
       "change_pct": 1.91,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -688,6 +756,7 @@
       "prev_price": 34086,
       "change_pct": 0.2,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -698,6 +767,7 @@
       "prev_price": 33528,
       "change_pct": 1.66,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -708,6 +778,7 @@
       "prev_price": 33054,
       "change_pct": 1.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -718,6 +789,7 @@
       "prev_price": 32305,
       "change_pct": 2.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -728,6 +800,7 @@
       "prev_price": 31627,
       "change_pct": 2.14,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -738,6 +811,7 @@
       "prev_price": 31458,
       "change_pct": 0.54,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -748,6 +822,7 @@
       "prev_price": 31047,
       "change_pct": 1.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -758,6 +833,7 @@
       "prev_price": 30919,
       "change_pct": 0.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -768,6 +844,7 @@
       "prev_price": 30557,
       "change_pct": 1.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -778,6 +855,7 @@
       "prev_price": 31191,
       "change_pct": -2.03,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -788,6 +866,7 @@
       "prev_price": 29994,
       "change_pct": 3.99,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -798,6 +877,7 @@
       "prev_price": 29710,
       "change_pct": 0.96,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -808,6 +888,7 @@
       "prev_price": 28502,
       "change_pct": 4.24,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -818,6 +899,7 @@
       "prev_price": 27325,
       "change_pct": 4.31,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -828,6 +910,7 @@
       "prev_price": 27452,
       "change_pct": -0.46,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -838,6 +921,7 @@
       "prev_price": 28603,
       "change_pct": -4.02,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -848,6 +932,7 @@
       "prev_price": 31218,
       "change_pct": -8.38,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -858,6 +943,7 @@
       "prev_price": 30628,
       "change_pct": 1.93,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -868,6 +954,7 @@
       "prev_price": 29711,
       "change_pct": 3.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -878,6 +965,7 @@
       "prev_price": 30809,
       "change_pct": -3.56,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -888,6 +976,7 @@
       "prev_price": 31801,
       "change_pct": -3.12,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -898,6 +987,7 @@
       "prev_price": 33229,
       "change_pct": -4.3,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -908,6 +998,7 @@
       "prev_price": 33855,
       "change_pct": -1.85,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -918,6 +1009,7 @@
       "prev_price": 33340,
       "change_pct": 1.54,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -928,6 +1020,7 @@
       "prev_price": 33955,
       "change_pct": -1.81,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -938,6 +1031,7 @@
       "prev_price": 34638,
       "change_pct": -1.97,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -948,6 +1042,7 @@
       "prev_price": 33378,
       "change_pct": 3.77,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -958,6 +1053,7 @@
       "prev_price": 33890,
       "change_pct": -1.51,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -968,6 +1064,7 @@
       "prev_price": 34182,
       "change_pct": -0.85,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -978,6 +1075,7 @@
       "prev_price": 34561,
       "change_pct": -1.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -988,6 +1086,7 @@
       "prev_price": 33532,
       "change_pct": 3.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -998,6 +1097,7 @@
       "prev_price": 33498,
       "change_pct": 0.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1008,6 +1108,7 @@
       "prev_price": 32972,
       "change_pct": 1.6,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1018,6 +1119,7 @@
       "prev_price": 32695,
       "change_pct": 0.85,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1028,6 +1130,7 @@
       "prev_price": 33232,
       "change_pct": -1.62,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1038,6 +1141,7 @@
       "prev_price": 33721,
       "change_pct": -1.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1048,6 +1152,7 @@
       "prev_price": 33044,
       "change_pct": 2.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1058,6 +1163,7 @@
       "prev_price": 31336,
       "change_pct": 5.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1068,6 +1174,7 @@
       "prev_price": 31931,
       "change_pct": -1.86,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1078,6 +1185,7 @@
       "prev_price": 31673,
       "change_pct": 0.81,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1088,6 +1196,7 @@
       "prev_price": 31023,
       "change_pct": 2.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1098,6 +1207,7 @@
       "prev_price": 30192,
       "change_pct": 2.75,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1108,6 +1218,7 @@
       "prev_price": 30180,
       "change_pct": 0.04,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1118,6 +1229,7 @@
       "prev_price": 29440,
       "change_pct": 2.51,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1128,6 +1240,7 @@
       "prev_price": 28576,
       "change_pct": 3.02,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1138,6 +1251,7 @@
       "prev_price": 28435,
       "change_pct": 0.5,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1148,6 +1262,7 @@
       "prev_price": 29198,
       "change_pct": -2.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1158,6 +1273,7 @@
       "prev_price": 29378,
       "change_pct": -0.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1168,6 +1284,7 @@
       "prev_price": 29798,
       "change_pct": -1.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1178,6 +1295,7 @@
       "prev_price": 28298,
       "change_pct": 5.3,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1188,6 +1306,7 @@
       "prev_price": 29337,
       "change_pct": -3.54,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1198,6 +1317,7 @@
       "prev_price": 29974,
       "change_pct": -2.13,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1208,6 +1328,7 @@
       "prev_price": 31451,
       "change_pct": -4.7,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -1218,6 +1339,7 @@
       "prev_price": 32000,
       "change_pct": -1.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1228,6 +1350,7 @@
       "prev_price": 32129,
       "change_pct": -0.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1238,6 +1361,7 @@
       "prev_price": 31789,
       "change_pct": 1.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1248,6 +1372,7 @@
       "prev_price": 31342,
       "change_pct": 1.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1258,6 +1383,7 @@
       "prev_price": 30755,
       "change_pct": 1.91,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1268,6 +1394,7 @@
       "prev_price": 30002,
       "change_pct": 2.51,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1278,6 +1405,7 @@
       "prev_price": 29510,
       "change_pct": 1.67,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1288,6 +1416,7 @@
       "prev_price": 29769,
       "change_pct": -0.87,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1298,6 +1427,7 @@
       "prev_price": 29629,
       "change_pct": 0.47,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1308,6 +1438,7 @@
       "prev_price": 29170,
       "change_pct": 1.57,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1318,6 +1449,7 @@
       "prev_price": 28145,
       "change_pct": 3.64,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1328,6 +1460,7 @@
       "prev_price": 28243,
       "change_pct": -0.35,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1338,6 +1471,7 @@
       "prev_price": 27854,
       "change_pct": 1.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1348,6 +1482,7 @@
       "prev_price": 28582,
       "change_pct": -2.55,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1358,6 +1493,7 @@
       "prev_price": 27905,
       "change_pct": 2.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1368,6 +1504,7 @@
       "prev_price": 28559,
       "change_pct": -2.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1378,6 +1515,7 @@
       "prev_price": 28519,
       "change_pct": 0.14,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1388,6 +1526,7 @@
       "prev_price": 27466,
       "change_pct": 3.83,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1398,6 +1537,7 @@
       "prev_price": 27358,
       "change_pct": 0.39,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1408,6 +1548,7 @@
       "prev_price": 27473,
       "change_pct": -0.42,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1418,6 +1559,7 @@
       "prev_price": 26889,
       "change_pct": 2.17,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1428,6 +1570,7 @@
       "prev_price": 27091,
       "change_pct": -0.75,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1438,6 +1581,7 @@
       "prev_price": 26773,
       "change_pct": 1.19,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1448,6 +1592,7 @@
       "prev_price": 25741,
       "change_pct": 4.01,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1458,6 +1603,7 @@
       "prev_price": 25888,
       "change_pct": -0.57,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1468,6 +1614,7 @@
       "prev_price": 25369,
       "change_pct": 2.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1478,6 +1625,7 @@
       "prev_price": 24871,
       "change_pct": 2.0,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1488,6 +1636,7 @@
       "prev_price": 24342,
       "change_pct": 2.17,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1498,6 +1647,7 @@
       "prev_price": 24281,
       "change_pct": 0.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1508,6 +1658,7 @@
       "prev_price": 24179,
       "change_pct": 0.42,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1518,6 +1669,7 @@
       "prev_price": 24063,
       "change_pct": 0.48,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1528,6 +1680,7 @@
       "prev_price": 23497,
       "change_pct": 2.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1538,6 +1691,7 @@
       "prev_price": 24155,
       "change_pct": -2.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1548,6 +1702,7 @@
       "prev_price": 24370,
       "change_pct": -0.88,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1558,6 +1713,7 @@
       "prev_price": 24291,
       "change_pct": 0.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1568,6 +1724,7 @@
       "prev_price": 23511,
       "change_pct": 3.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1578,6 +1735,7 @@
       "prev_price": 22787,
       "change_pct": 3.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1588,6 +1746,7 @@
       "prev_price": 22207,
       "change_pct": 2.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1598,6 +1757,7 @@
       "prev_price": 22897,
       "change_pct": -3.01,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1608,6 +1768,7 @@
       "prev_price": 23276,
       "change_pct": -1.63,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1618,6 +1779,7 @@
       "prev_price": 22600,
       "change_pct": 2.99,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1628,6 +1790,7 @@
       "prev_price": 22940,
       "change_pct": -1.48,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1638,6 +1801,7 @@
       "prev_price": 22803,
       "change_pct": 0.6,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1648,6 +1812,7 @@
       "prev_price": 23715,
       "change_pct": -3.85,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1658,6 +1823,7 @@
       "prev_price": 23327,
       "change_pct": 1.66,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1668,6 +1834,7 @@
       "prev_price": 23411,
       "change_pct": -0.36,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1678,6 +1845,7 @@
       "prev_price": 22795,
       "change_pct": 2.7,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1688,6 +1856,7 @@
       "prev_price": 22682,
       "change_pct": 0.5,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1698,6 +1867,7 @@
       "prev_price": 22892,
       "change_pct": -0.92,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1708,6 +1878,7 @@
       "prev_price": 22890,
       "change_pct": 0.01,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1718,6 +1889,7 @@
       "prev_price": 22526,
       "change_pct": 1.62,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1728,6 +1900,7 @@
       "prev_price": 22602,
       "change_pct": -0.34,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1738,6 +1911,7 @@
       "prev_price": 22147,
       "change_pct": 2.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1748,6 +1922,7 @@
       "prev_price": 22618,
       "change_pct": -2.08,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1758,6 +1933,7 @@
       "prev_price": 22664,
       "change_pct": -0.2,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1768,6 +1944,7 @@
       "prev_price": 22304,
       "change_pct": 1.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1778,6 +1955,7 @@
       "prev_price": 22076,
       "change_pct": 1.03,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1788,6 +1966,7 @@
       "prev_price": 21232,
       "change_pct": 3.98,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1798,6 +1977,7 @@
       "prev_price": 20842,
       "change_pct": 1.87,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1808,6 +1988,7 @@
       "prev_price": 20621,
       "change_pct": 1.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1818,6 +1999,7 @@
       "prev_price": 20630,
       "change_pct": -0.04,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1828,6 +2010,7 @@
       "prev_price": 19731,
       "change_pct": 4.56,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1838,6 +2021,7 @@
       "prev_price": 20349,
       "change_pct": -3.04,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1848,6 +2032,7 @@
       "prev_price": 19670,
       "change_pct": 3.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1858,6 +2043,7 @@
       "prev_price": 19670,
       "change_pct": 0.0,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1868,6 +2054,7 @@
       "prev_price": 19494,
       "change_pct": 0.9,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1878,6 +2065,7 @@
       "prev_price": 19178,
       "change_pct": 1.65,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1888,6 +2076,7 @@
       "prev_price": 19167,
       "change_pct": 0.06,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1898,6 +2087,7 @@
       "prev_price": 18280,
       "change_pct": 4.85,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1908,6 +2098,7 @@
       "prev_price": 18735,
       "change_pct": -2.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1918,6 +2109,7 @@
       "prev_price": 18872,
       "change_pct": -0.73,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1928,6 +2120,7 @@
       "prev_price": 19265,
       "change_pct": -2.04,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1938,6 +2131,7 @@
       "prev_price": 19051,
       "change_pct": 1.12,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1948,6 +2142,7 @@
       "prev_price": 19448,
       "change_pct": -2.04,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1958,6 +2153,7 @@
       "prev_price": 19004,
       "change_pct": 2.34,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1968,6 +2164,7 @@
       "prev_price": 19018,
       "change_pct": -0.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1978,6 +2175,7 @@
       "prev_price": 18593,
       "change_pct": 2.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1988,6 +2186,7 @@
       "prev_price": 17731,
       "change_pct": 4.86,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -1998,6 +2197,7 @@
       "prev_price": 18192,
       "change_pct": -2.53,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2008,6 +2208,7 @@
       "prev_price": 17987,
       "change_pct": 1.14,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2018,6 +2219,7 @@
       "prev_price": 18035,
       "change_pct": -0.27,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2028,6 +2230,7 @@
       "prev_price": 17915,
       "change_pct": 0.67,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2038,6 +2241,7 @@
       "prev_price": 18938,
       "change_pct": -5.4,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2048,6 +2252,7 @@
       "prev_price": 19153,
       "change_pct": -1.12,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2058,6 +2263,7 @@
       "prev_price": 19500,
       "change_pct": -1.78,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2068,6 +2274,7 @@
       "prev_price": 19753,
       "change_pct": -1.28,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2078,6 +2285,7 @@
       "prev_price": 19519,
       "change_pct": 1.2,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2088,6 +2296,7 @@
       "prev_price": 19775,
       "change_pct": -1.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2098,6 +2307,7 @@
       "prev_price": 19433,
       "change_pct": 1.76,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2108,6 +2318,7 @@
       "prev_price": 19661,
       "change_pct": -1.16,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2118,6 +2329,7 @@
       "prev_price": 19393,
       "change_pct": 1.38,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2128,6 +2340,7 @@
       "prev_price": 19046,
       "change_pct": 1.82,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2138,6 +2351,7 @@
       "prev_price": 19100,
       "change_pct": -0.28,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2148,6 +2362,7 @@
       "prev_price": 18548,
       "change_pct": 2.98,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2158,6 +2373,7 @@
       "prev_price": 19264,
       "change_pct": -3.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2168,6 +2384,7 @@
       "prev_price": 19637,
       "change_pct": -1.9,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2178,6 +2395,7 @@
       "prev_price": 20255,
       "change_pct": -3.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2188,6 +2406,7 @@
       "prev_price": 19533,
       "change_pct": 3.7,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2198,6 +2417,7 @@
       "prev_price": 20175,
       "change_pct": -3.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2208,6 +2428,7 @@
       "prev_price": 20512,
       "change_pct": -1.64,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2218,6 +2439,7 @@
       "prev_price": 19690,
       "change_pct": 4.17,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2228,6 +2450,7 @@
       "prev_price": 19384,
       "change_pct": 1.58,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2238,6 +2461,7 @@
       "prev_price": 19236,
       "change_pct": 0.77,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2248,6 +2472,7 @@
       "prev_price": 19270,
       "change_pct": -0.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2258,6 +2483,7 @@
       "prev_price": 18476,
       "change_pct": 4.3,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2268,6 +2494,7 @@
       "prev_price": 18625,
       "change_pct": -0.8,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2278,6 +2505,7 @@
       "prev_price": 18052,
       "change_pct": 3.17,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2288,6 +2516,7 @@
       "prev_price": 17994,
       "change_pct": 0.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2298,6 +2527,7 @@
       "prev_price": 17125,
       "change_pct": 5.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2308,6 +2538,7 @@
       "prev_price": 18895,
       "change_pct": -9.37,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2318,6 +2549,7 @@
       "prev_price": 18995,
       "change_pct": -0.53,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2328,6 +2560,7 @@
       "prev_price": 18048,
       "change_pct": 5.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2338,6 +2571,7 @@
       "prev_price": 17459,
       "change_pct": 3.37,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2348,6 +2582,7 @@
       "prev_price": 17727,
       "change_pct": -1.51,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2358,6 +2593,7 @@
       "prev_price": 18929,
       "change_pct": -6.35,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2368,6 +2604,7 @@
       "prev_price": 18851,
       "change_pct": 0.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2378,6 +2615,7 @@
       "prev_price": 19762,
       "change_pct": -4.61,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -2388,6 +2626,7 @@
       "prev_price": 19406,
       "change_pct": 1.83,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2398,6 +2637,7 @@
       "prev_price": 19472,
       "change_pct": -0.34,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2408,6 +2648,7 @@
       "prev_price": 19347,
       "change_pct": 0.65,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2418,6 +2659,7 @@
       "prev_price": 19279,
       "change_pct": 0.35,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2428,6 +2670,7 @@
       "prev_price": 18292,
       "change_pct": 5.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2438,6 +2681,7 @@
       "prev_price": 17304,
       "change_pct": 5.71,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2448,6 +2692,7 @@
       "prev_price": 17583,
       "change_pct": -1.59,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2458,6 +2703,7 @@
       "prev_price": 17299,
       "change_pct": 1.64,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2468,6 +2714,7 @@
       "prev_price": 17569,
       "change_pct": -1.54,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2478,6 +2725,7 @@
       "prev_price": 18495,
       "change_pct": -5.01,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2488,6 +2736,7 @@
       "prev_price": 17955,
       "change_pct": 3.01,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2498,6 +2747,7 @@
       "prev_price": 17415,
       "change_pct": 3.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2508,6 +2758,7 @@
       "prev_price": 17789,
       "change_pct": -2.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2518,6 +2769,7 @@
       "prev_price": 18530,
       "change_pct": -4.0,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2528,6 +2780,7 @@
       "prev_price": 18978,
       "change_pct": -2.36,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2538,6 +2791,7 @@
       "prev_price": 19204,
       "change_pct": -1.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2548,6 +2802,7 @@
       "prev_price": 18849,
       "change_pct": 1.88,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2558,6 +2813,7 @@
       "prev_price": 18515,
       "change_pct": 1.8,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2568,6 +2824,7 @@
       "prev_price": 18441,
       "change_pct": 0.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2578,6 +2835,7 @@
       "prev_price": 18022,
       "change_pct": 2.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2588,6 +2846,7 @@
       "prev_price": 18804,
       "change_pct": -4.16,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -2598,6 +2857,7 @@
       "prev_price": 18720,
       "change_pct": 0.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2608,6 +2868,7 @@
       "prev_price": 18475,
       "change_pct": 1.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2618,6 +2879,7 @@
       "prev_price": 18515,
       "change_pct": -0.22,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2628,6 +2890,7 @@
       "prev_price": 18163,
       "change_pct": 1.94,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2638,6 +2901,7 @@
       "prev_price": 18035,
       "change_pct": 0.71,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2648,6 +2912,7 @@
       "prev_price": 17570,
       "change_pct": 2.65,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2658,6 +2923,7 @@
       "prev_price": 17085,
       "change_pct": 2.84,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2668,6 +2934,7 @@
       "prev_price": 16677,
       "change_pct": 2.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2678,6 +2945,7 @@
       "prev_price": 17063,
       "change_pct": -2.26,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2688,6 +2956,7 @@
       "prev_price": 17065,
       "change_pct": -0.01,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2698,6 +2967,7 @@
       "prev_price": 17130,
       "change_pct": -0.38,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2708,6 +2978,7 @@
       "prev_price": 17319,
       "change_pct": -1.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2718,6 +2989,7 @@
       "prev_price": 17067,
       "change_pct": 1.48,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2728,6 +3000,7 @@
       "prev_price": 16802,
       "change_pct": 1.58,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2738,6 +3011,7 @@
       "prev_price": 17095,
       "change_pct": -1.71,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2748,6 +3022,7 @@
       "prev_price": 16878,
       "change_pct": 1.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2758,6 +3033,7 @@
       "prev_price": 16777,
       "change_pct": 0.6,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2768,6 +3044,7 @@
       "prev_price": 16482,
       "change_pct": 1.79,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2778,6 +3055,7 @@
       "prev_price": 16612,
       "change_pct": -0.78,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2788,6 +3066,7 @@
       "prev_price": 16462,
       "change_pct": 0.91,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2798,6 +3077,7 @@
       "prev_price": 16714,
       "change_pct": -1.51,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2808,6 +3088,7 @@
       "prev_price": 16406,
       "change_pct": 1.88,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2818,6 +3099,7 @@
       "prev_price": 16135,
       "change_pct": 1.68,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2828,6 +3110,7 @@
       "prev_price": 16069,
       "change_pct": 0.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2838,6 +3121,7 @@
       "prev_price": 16011,
       "change_pct": 0.36,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2848,6 +3132,7 @@
       "prev_price": 15992,
       "change_pct": 0.12,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2858,6 +3143,7 @@
       "prev_price": 15675,
       "change_pct": 2.02,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2868,6 +3154,7 @@
       "prev_price": 15598,
       "change_pct": 0.49,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2878,6 +3165,7 @@
       "prev_price": 15859,
       "change_pct": -1.65,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2888,6 +3176,7 @@
       "prev_price": 15861,
       "change_pct": -0.01,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2898,6 +3187,7 @@
       "prev_price": 15431,
       "change_pct": 2.79,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2908,6 +3198,7 @@
       "prev_price": 15675,
       "change_pct": -1.56,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2918,6 +3209,7 @@
       "prev_price": 15481,
       "change_pct": 1.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2928,6 +3220,7 @@
       "prev_price": 15371,
       "change_pct": 0.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2938,6 +3231,7 @@
       "prev_price": 14765,
       "change_pct": 4.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2948,6 +3242,7 @@
       "prev_price": 14757,
       "change_pct": 0.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2958,6 +3253,7 @@
       "prev_price": 14775,
       "change_pct": -0.12,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2968,6 +3264,7 @@
       "prev_price": 14039,
       "change_pct": 5.24,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2978,6 +3275,7 @@
       "prev_price": 14043,
       "change_pct": -0.03,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2988,6 +3286,7 @@
       "prev_price": 14278,
       "change_pct": -1.65,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -2998,6 +3297,7 @@
       "prev_price": 14151,
       "change_pct": 0.9,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3008,6 +3308,7 @@
       "prev_price": 14090,
       "change_pct": 0.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3018,6 +3319,7 @@
       "prev_price": 13641,
       "change_pct": 3.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3028,6 +3330,7 @@
       "prev_price": 13751,
       "change_pct": -0.8,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3038,6 +3341,7 @@
       "prev_price": 13586,
       "change_pct": 1.21,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3048,6 +3352,7 @@
       "prev_price": 13613,
       "change_pct": -0.2,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3058,6 +3363,7 @@
       "prev_price": 13288,
       "change_pct": 2.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3068,6 +3374,7 @@
       "prev_price": 13200,
       "change_pct": 0.67,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3078,6 +3385,7 @@
       "prev_price": 13228,
       "change_pct": -0.21,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3088,6 +3396,7 @@
       "prev_price": 13128,
       "change_pct": 0.76,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3098,6 +3407,7 @@
       "prev_price": 13098,
       "change_pct": 0.23,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3108,6 +3418,7 @@
       "prev_price": 13000,
       "change_pct": 0.75,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3118,6 +3429,7 @@
       "prev_price": 12794,
       "change_pct": 1.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3128,6 +3440,7 @@
       "prev_price": 12764,
       "change_pct": 0.24,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3138,6 +3451,7 @@
       "prev_price": 12507,
       "change_pct": 2.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3148,6 +3462,7 @@
       "prev_price": 11892,
       "change_pct": 5.17,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3158,6 +3473,7 @@
       "prev_price": 12419,
       "change_pct": -4.24,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -3168,6 +3484,7 @@
       "prev_price": 12602,
       "change_pct": -1.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3178,6 +3495,7 @@
       "prev_price": 12542,
       "change_pct": 0.48,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3188,6 +3506,7 @@
       "prev_price": 12249,
       "change_pct": 2.39,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3198,6 +3517,7 @@
       "prev_price": 11761,
       "change_pct": 4.15,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3208,6 +3528,7 @@
       "prev_price": 12076,
       "change_pct": -2.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3218,6 +3539,7 @@
       "prev_price": 12158,
       "change_pct": -0.67,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3228,6 +3550,7 @@
       "prev_price": 12579,
       "change_pct": -3.35,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3238,6 +3561,7 @@
       "prev_price": 12740,
       "change_pct": -1.26,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3248,6 +3572,7 @@
       "prev_price": 12263,
       "change_pct": 3.89,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3258,6 +3583,7 @@
       "prev_price": 12363,
       "change_pct": -0.81,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3268,6 +3594,7 @@
       "prev_price": 12108,
       "change_pct": 2.11,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3278,6 +3605,7 @@
       "prev_price": 11626,
       "change_pct": 4.15,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3288,6 +3616,7 @@
       "prev_price": 11916,
       "change_pct": -2.43,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3298,6 +3627,7 @@
       "prev_price": 11803,
       "change_pct": 0.96,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3308,6 +3638,7 @@
       "prev_price": 11555,
       "change_pct": 2.15,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3318,6 +3649,7 @@
       "prev_price": 11516,
       "change_pct": 0.34,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3328,6 +3660,7 @@
       "prev_price": 11296,
       "change_pct": 1.95,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3338,6 +3671,7 @@
       "prev_price": 11391,
       "change_pct": -0.83,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3348,6 +3682,7 @@
       "prev_price": 10949,
       "change_pct": 4.04,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3358,6 +3693,7 @@
       "prev_price": 11603,
       "change_pct": -5.64,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3368,6 +3704,7 @@
       "prev_price": 11130,
       "change_pct": 4.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3378,6 +3715,7 @@
       "prev_price": 10848,
       "change_pct": 2.6,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3388,6 +3726,7 @@
       "prev_price": 10461,
       "change_pct": 3.7,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3398,6 +3737,7 @@
       "prev_price": 10456,
       "change_pct": 0.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3408,6 +3748,7 @@
       "prev_price": 10655,
       "change_pct": -1.87,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3418,6 +3759,7 @@
       "prev_price": 10277,
       "change_pct": 3.68,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3428,6 +3770,7 @@
       "prev_price": 10303,
       "change_pct": -0.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3438,6 +3781,7 @@
       "prev_price": 10329,
       "change_pct": -0.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3448,6 +3792,7 @@
       "prev_price": 9310,
       "change_pct": 10.95,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3458,6 +3803,7 @@
       "prev_price": 9759,
       "change_pct": -4.6,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -3468,6 +3814,7 @@
       "prev_price": 8904,
       "change_pct": 9.6,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3478,6 +3825,7 @@
       "prev_price": 8885,
       "change_pct": 0.21,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3488,6 +3836,7 @@
       "prev_price": 10936,
       "change_pct": -18.75,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3498,6 +3847,7 @@
       "prev_price": 11089,
       "change_pct": -1.38,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3508,6 +3858,7 @@
       "prev_price": 12861,
       "change_pct": -13.78,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3518,6 +3869,7 @@
       "prev_price": 12606,
       "change_pct": 2.02,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3528,6 +3880,7 @@
       "prev_price": 12496,
       "change_pct": 0.88,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3538,6 +3891,7 @@
       "prev_price": 12168,
       "change_pct": 2.7,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3548,6 +3902,7 @@
       "prev_price": 12378,
       "change_pct": -1.7,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3558,6 +3913,7 @@
       "prev_price": 12428,
       "change_pct": -0.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3568,6 +3924,7 @@
       "prev_price": 12185,
       "change_pct": 1.99,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3578,6 +3935,7 @@
       "prev_price": 12047,
       "change_pct": 1.15,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3588,6 +3946,7 @@
       "prev_price": 12060,
       "change_pct": -0.11,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3598,6 +3957,7 @@
       "prev_price": 11902,
       "change_pct": 1.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3608,6 +3968,7 @@
       "prev_price": 11776,
       "change_pct": 1.07,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3618,6 +3979,7 @@
       "prev_price": 11504,
       "change_pct": 2.36,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3628,6 +3990,7 @@
       "prev_price": 11711,
       "change_pct": -1.77,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3638,6 +4001,7 @@
       "prev_price": 11431,
       "change_pct": 2.45,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3648,6 +4012,7 @@
       "prev_price": 11394,
       "change_pct": 0.32,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3658,6 +4023,7 @@
       "prev_price": 11427,
       "change_pct": -0.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3668,6 +4034,7 @@
       "prev_price": 11106,
       "change_pct": 2.89,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3678,6 +4045,7 @@
       "prev_price": 11076,
       "change_pct": 0.27,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3688,6 +4056,7 @@
       "prev_price": 11028,
       "change_pct": 0.44,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3698,6 +4067,7 @@
       "prev_price": 10749,
       "change_pct": 2.6,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3708,6 +4078,7 @@
       "prev_price": 10520,
       "change_pct": 2.18,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3718,6 +4089,7 @@
       "prev_price": 10856,
       "change_pct": -3.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3728,6 +4100,7 @@
       "prev_price": 10983,
       "change_pct": -1.16,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3738,6 +4111,7 @@
       "prev_price": 11010,
       "change_pct": -0.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3748,6 +4122,7 @@
       "prev_price": 10765,
       "change_pct": 2.28,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3758,6 +4133,7 @@
       "prev_price": 10515,
       "change_pct": 2.38,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3768,6 +4144,7 @@
       "prev_price": 10525,
       "change_pct": -0.1,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3778,6 +4155,7 @@
       "prev_price": 10203,
       "change_pct": 3.16,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3788,6 +4166,7 @@
       "prev_price": 10506,
       "change_pct": -2.88,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3798,6 +4177,7 @@
       "prev_price": 10671,
       "change_pct": -1.55,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3808,6 +4188,7 @@
       "prev_price": 11010,
       "change_pct": -3.08,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3818,6 +4199,7 @@
       "prev_price": 10858,
       "change_pct": 1.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3828,6 +4210,7 @@
       "prev_price": 10973,
       "change_pct": -1.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3838,6 +4221,7 @@
       "prev_price": 10891,
       "change_pct": 0.75,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3848,6 +4232,7 @@
       "prev_price": 10619,
       "change_pct": 2.56,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3858,6 +4243,7 @@
       "prev_price": 10684,
       "change_pct": -0.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3868,6 +4254,7 @@
       "prev_price": 10557,
       "change_pct": 1.2,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3878,6 +4265,7 @@
       "prev_price": 10385,
       "change_pct": 1.66,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3888,6 +4276,7 @@
       "prev_price": 10259,
       "change_pct": 1.23,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3898,6 +4287,7 @@
       "prev_price": 10416,
       "change_pct": -1.51,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3908,6 +4298,7 @@
       "prev_price": 10638,
       "change_pct": -2.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3918,6 +4309,7 @@
       "prev_price": 10595,
       "change_pct": 0.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3928,6 +4320,7 @@
       "prev_price": 10989,
       "change_pct": -3.59,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3938,6 +4331,7 @@
       "prev_price": 10925,
       "change_pct": 0.59,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3948,6 +4342,7 @@
       "prev_price": 10840,
       "change_pct": 0.78,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3958,6 +4353,7 @@
       "prev_price": 10804,
       "change_pct": 0.33,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3968,6 +4364,7 @@
       "prev_price": 10484,
       "change_pct": 3.05,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3978,6 +4375,7 @@
       "prev_price": 10604,
       "change_pct": -1.13,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3988,6 +4386,7 @@
       "prev_price": 10543,
       "change_pct": 0.58,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -3998,6 +4397,7 @@
       "prev_price": 10282,
       "change_pct": 2.54,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4008,6 +4408,7 @@
       "prev_price": 10408,
       "change_pct": -1.21,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4018,6 +4419,7 @@
       "prev_price": 10296,
       "change_pct": 1.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4028,6 +4430,7 @@
       "prev_price": 10153,
       "change_pct": 1.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4038,6 +4441,7 @@
       "prev_price": 9945,
       "change_pct": 2.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4048,6 +4452,7 @@
       "prev_price": 9854,
       "change_pct": 0.92,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4058,6 +4463,7 @@
       "prev_price": 9698,
       "change_pct": 1.61,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4068,6 +4474,7 @@
       "prev_price": 9641,
       "change_pct": 0.59,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4078,6 +4485,7 @@
       "prev_price": 9416,
       "change_pct": 2.39,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4088,6 +4496,7 @@
       "prev_price": 8809,
       "change_pct": 6.89,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4098,6 +4507,7 @@
       "prev_price": 9231,
       "change_pct": -4.57,
       "alert": false,
+      "caution": true,
       "is_partial": false
     },
     {
@@ -4108,6 +4518,7 @@
       "prev_price": 9183,
       "change_pct": 0.52,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4118,6 +4529,7 @@
       "prev_price": 10057,
       "change_pct": -8.69,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4128,6 +4540,7 @@
       "prev_price": 10151,
       "change_pct": -0.93,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4138,6 +4551,7 @@
       "prev_price": 10368,
       "change_pct": -2.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4148,6 +4562,7 @@
       "prev_price": 9996,
       "change_pct": 3.72,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4158,6 +4573,7 @@
       "prev_price": 10349,
       "change_pct": -3.41,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4168,6 +4584,7 @@
       "prev_price": 10667,
       "change_pct": -2.98,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4178,6 +4595,7 @@
       "prev_price": 10303,
       "change_pct": 3.53,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4188,6 +4606,7 @@
       "prev_price": 10133,
       "change_pct": 1.68,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4198,6 +4617,7 @@
       "prev_price": 10362,
       "change_pct": -2.21,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4208,6 +4628,7 @@
       "prev_price": 10195,
       "change_pct": 1.64,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4218,6 +4639,7 @@
       "prev_price": 11026,
       "change_pct": -7.54,
       "alert": true,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4228,6 +4650,7 @@
       "prev_price": 11016,
       "change_pct": 0.09,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4238,6 +4661,7 @@
       "prev_price": 10984,
       "change_pct": 0.29,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4248,6 +4672,7 @@
       "prev_price": 10834,
       "change_pct": 1.38,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4258,6 +4683,7 @@
       "prev_price": 10580,
       "change_pct": 2.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4268,6 +4694,7 @@
       "prev_price": 10714,
       "change_pct": -1.25,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4278,6 +4705,7 @@
       "prev_price": 10592,
       "change_pct": 1.15,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4288,6 +4716,7 @@
       "prev_price": 10473,
       "change_pct": 1.14,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4298,6 +4727,7 @@
       "prev_price": 10515,
       "change_pct": -0.4,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4308,6 +4738,7 @@
       "prev_price": 10497,
       "change_pct": 0.17,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4318,6 +4749,7 @@
       "prev_price": 10469,
       "change_pct": 0.27,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4328,6 +4760,7 @@
       "prev_price": 10486,
       "change_pct": -0.16,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4338,6 +4771,7 @@
       "prev_price": 10475,
       "change_pct": 0.11,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4348,6 +4782,7 @@
       "prev_price": 10057,
       "change_pct": 4.16,
       "alert": false,
+      "caution": false,
       "is_partial": false
     },
     {
@@ -4358,6 +4793,7 @@
       "prev_price": null,
       "change_pct": null,
       "alert": false,
+      "caution": false,
       "is_partial": false
     }
   ]
