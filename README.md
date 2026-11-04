@@ -45,6 +45,17 @@ Actions タブ → update → Run workflow で手動実行する。
 
 公開 URL が決まったら `config.json` の `site_url` に設定すると、メール本文にリンクが入る。
 
+## 運用メモ
+
+- **送信元 Gmail のパスワードを変えたら、アプリパスワードも作り直す。**
+  Google アカウントのパスワードを変更すると、発行済みのアプリパスワードはすべて無効になり、メールが止まる。
+  新しいアプリパスワードを発行して `GMAIL_APP_PASSWORD` を登録し直す
+  （`gh secret set GMAIL_APP_PASSWORD -R shoestuboya-DDR/sp500-weekly`）
+- 2段階認証をオフにした場合も同じくアプリパスワードが無効になる
+- Dependabot が週1回（月曜）、Actions の部品の更新 PR を作ることがある。
+  PR のチェックに問題がなければマージする。マージすると自動実行が走るので、成功したかを Actions タブで確認する
+- メールが届かないときは、GitHub の「Actions 失敗」メールが来ていないか確認する
+
 ## ローカルでの確認
 
 Python 3.10 以上。外部ライブラリは不要。

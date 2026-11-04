@@ -12,13 +12,13 @@ on:
       - "site/app.js"
       - "site/style.css"
       - "src/**"
+      - "tests/**"
       - "config.json"
       - ".github/workflows/update.yml"
 
+# 既定は読み取りのみ。必要な権限はジョブごとに付ける
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: update
@@ -27,6 +27,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Secrets を扱うジョブ。data.json / notified.json のコミットに必要な書き込み権限だけ持つ
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v5
 
@@ -78,6 +81,10 @@ jobs:
   deploy:
     needs: update
     runs-on: ubuntu-latest
+    # Pages への公開だけを行うジョブ。Secrets は渡さない
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
