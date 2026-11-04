@@ -20,6 +20,7 @@ def build_payload(
         "source_latest_date": prices[-1][0].isoformat(),
         "source_row_count": len(prices),
         "alert_threshold_pct": config["alert_threshold_pct"],
+        "caution_threshold_pct": config.get("caution_threshold_pct"),
         "display_weeks": config["display_weeks"],
         "stale_days": config["stale_days"],
         "weeks": [w.to_dict() for w in weeks],

@@ -46,12 +46,18 @@
       b.textContent = `速報（${md(latest.date)} 時点）`;
       b.hidden = false;
     }
+    const prefix = latest.is_partial ? "【暫定】" : "";
     if (latest.alert) {
       const el = $("alert");
-      const prefix = latest.is_partial ? "【暫定】" : "";
       el.textContent = `⚠ ${prefix}前週比 ${pct(latest.change_pct)}（${th}% 以下）の下落`;
       el.hidden = false;
       document.querySelector(".summary").classList.add("is-alert");
+    } else if (latest.caution) {
+      const el = $("caution");
+      el.textContent =
+        `⚠ ${prefix}注意：前週比 ${pct(latest.change_pct)}（${data.caution_threshold_pct}% 以下）の下落`;
+      el.hidden = false;
+      document.querySelector(".summary").classList.add("is-caution");
     }
 
     // ---- 表
@@ -60,6 +66,7 @@
     for (const w of shown) {
       const tr = document.createElement("tr");
       if (w.alert) tr.className = "alert";
+      else if (w.caution) tr.className = "caution";
       const changeText = w.change_pct == null ? "-" : `${pct(w.change_pct)} ${arrow(w.change_pct)}`;
       const cls = w.change_pct == null ? "" : w.change_pct >= 0 ? "up" : "down";
       tr.innerHTML =
@@ -69,11 +76,11 @@
       tr.children[1].textContent = w.date + (w.is_partial ? "（速報）" : "");
       tr.children[2].textContent = w.price.toLocaleString("ja-JP");
       tr.children[3].textContent = changeText;
-      if (w.alert) {
+      if (w.alert || w.caution) {
         const flag = document.createElement("span");
         flag.className = "flag";
-        flag.textContent = "⚠";
-        flag.setAttribute("aria-label", "アラート");
+        flag.textContent = w.alert ? "⚠" : "△";
+        flag.setAttribute("aria-label", w.alert ? "アラート" : "注意");
         tr.children[3].appendChild(flag);
       }
       tbody.appendChild(tr);
@@ -87,6 +94,8 @@
     const css = getComputedStyle(document.documentElement);
     const lineColor = css.getPropertyValue("--line").trim();
     const downColor = css.getPropertyValue("--down").trim();
+    const cautionColor = css.getPropertyValue("--caution").trim();
+    const pointColor = (w) => (w.alert ? downColor : w.caution ? cautionColor : lineColor);
     const muted = css.getPropertyValue("--muted").trim();
     const border = css.getPropertyValue("--border").trim();
 
@@ -100,10 +109,10 @@
             borderColor: lineColor,
             borderWidth: 2,
             tension: 0.2,
-            pointRadius: series.map((w) => (w.alert ? 6 : 0)),
+            pointRadius: series.map((w) => (w.alert ? 6 : w.caution ? 5 : 0)),
             pointHoverRadius: 5,
-            pointBackgroundColor: series.map((w) => (w.alert ? downColor : lineColor)),
-            pointBorderColor: series.map((w) => (w.alert ? downColor : lineColor)),
+            pointBackgroundColor: series.map(pointColor),
+            pointBorderColor: series.map(pointColor),
           },
         ],
       },
@@ -118,7 +127,7 @@
               label: (item) => {
                 const w = series[item.dataIndex];
                 const c = w.change_pct == null ? "" : `（${pct(w.change_pct)}）`;
-                return `${yen(w.price)}${c}${w.alert ? " ⚠" : ""}`;
+                return `${yen(w.price)}${c}${w.alert ? " ⚠" : w.caution ? " △" : ""}`;
               },
             },
           },

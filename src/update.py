@@ -91,12 +91,13 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     # ---- 週次集約・data.json 出力
-    weeks = aggregate_weekly(prices, today, config["alert_threshold_pct"])
+    caution_pct = config.get("caution_threshold_pct")
+    weeks = aggregate_weekly(prices, today, config["alert_threshold_pct"], caution_pct)
     write_json(DATA_PATH, build_payload(config, weeks, prices, now))
     latest = weeks[0]
     print(
         f"最新: {latest.week} {latest.date} {latest.price:,}円 前週比 {latest.change_pct}% "
-        f"alert={latest.alert} partial={latest.is_partial}"
+        f"alert={latest.alert} caution={latest.caution} partial={latest.is_partial}"
     )
 
     # ---- 通知
@@ -106,6 +107,8 @@ def main(argv: list[str] | None = None) -> int:
         weekly_summary=config["notify"]["weekly_summary"],
         fund_name=config["fund_name"],
         site_url=config["site_url"],
+        alert_pct=config["alert_threshold_pct"],
+        caution_pct=caution_pct,
     )
     if mail is not None:
         sender.send(mail)  # 失敗したら例外で落ちる → 通知履歴は更新されず翌日再送

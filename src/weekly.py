@@ -21,6 +21,7 @@ class WeekPoint:
     change_pct: float | None
     alert: bool
     is_partial: bool
+    caution: bool = False  # 注意ライン以下かつアラート未満
 
     def to_dict(self) -> dict:
         return {
@@ -31,6 +32,7 @@ class WeekPoint:
             "prev_price": self.prev_price,
             "change_pct": self.change_pct,
             "alert": self.alert,
+            "caution": self.caution,
             "is_partial": self.is_partial,
         }
 
@@ -53,8 +55,16 @@ def is_week_complete(last_date: date, today: date) -> bool:
     return last_date.weekday() == FRIDAY or _monday(today) > _monday(last_date)
 
 
-def aggregate_weekly(prices: list[PricePoint], today: date, threshold_pct: float) -> list[WeekPoint]:
-    """日次の基準価額から週末価格の一覧を作る。戻り値は日付の降順（最新が先頭）。"""
+def aggregate_weekly(
+    prices: list[PricePoint],
+    today: date,
+    threshold_pct: float,
+    caution_pct: float | None = None,
+) -> list[WeekPoint]:
+    """日次の基準価額から週末価格の一覧を作る。戻り値は日付の降順（最新が先頭）。
+
+    threshold_pct 以下ならアラート、caution_pct 以下（かつアラート未満）なら注意。
+    """
     last_by_week: dict[str, PricePoint] = {}
     for d, p in prices:
         key = iso_week_key(d)
@@ -63,16 +73,19 @@ def aggregate_weekly(prices: list[PricePoint], today: date, threshold_pct: float
 
     ordered = sorted(last_by_week.items(), key=lambda kv: kv[1][0])
     threshold = Fraction(str(threshold_pct))
+    caution_th = Fraction(str(caution_pct)) if caution_pct is not None else None
     result: list[WeekPoint] = []
     prev: PricePoint | None = None
     for i, (key, (d, p)) in enumerate(ordered):
         change_pct: float | None = None
         alert = False
+        caution = False
         if prev is not None:
             # 浮動小数の誤差で境界（ちょうど -5%）の判定がぶれないよう、有理数で計算する
             raw = (Fraction(p, prev[1]) - 1) * 100
             change_pct = round(float(raw), 2)
             alert = raw <= threshold
+            caution = not alert and caution_th is not None and raw <= caution_th
         is_latest = i == len(ordered) - 1
         result.append(
             WeekPoint(
@@ -84,6 +97,7 @@ def aggregate_weekly(prices: list[PricePoint], today: date, threshold_pct: float
                 change_pct=change_pct,
                 alert=alert,
                 is_partial=is_latest and not is_week_complete(d, today),
+                caution=caution,
             )
         )
         prev = (d, p)

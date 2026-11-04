@@ -4,6 +4,7 @@
   "source_url": "https://toushin-lib.fwg.ne.jp/FdsWeb/FDST030000/csv-file-download?isinCd=JP90C000GKC6&associFundCd=03311187",
   "site_url": "https://shoestuboya-ddr.github.io/sp500-weekly/",
   "alert_threshold_pct": -5.0,
+  "caution_threshold_pct": -4.0,
   "display_weeks": 52,
   "stale_days": 10,
   "notify": {

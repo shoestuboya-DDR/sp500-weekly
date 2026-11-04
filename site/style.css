@@ -11,6 +11,10 @@
   --alert-row: #fde8e8;
   --warn-bg: #fff4d6;
   --warn-text: #7a5300;
+  --caution-bg: #ffe08a;
+  --caution-text: #5c3d00;
+  --caution-row: #fff6d6;
+  --caution: #b26a00;
   --line: #2f6fdb;
 }
 
@@ -28,6 +32,10 @@
     --alert-row: #3a1d1f;
     --warn-bg: #3a3020;
     --warn-text: #f3c969;
+    --caution-bg: #4a3a10;
+    --caution-text: #ffd866;
+    --caution-row: #33290f;
+    --caution: #ffb74d;
     --line: #6ea2ff;
   }
 }
@@ -69,8 +77,10 @@ h2 { font-size: 1rem; margin: 0 0 12px; color: var(--muted); font-weight: 600; }
 }
 .banner-alert { background: var(--alert-bg); color: var(--alert-text); font-size: 1.1rem; }
 .banner-warn { background: var(--warn-bg); color: var(--warn-text); }
+.banner-caution { background: var(--caution-bg); color: var(--caution-text); font-size: 1.05rem; }
 
 .summary.is-alert { border: 2px solid var(--down); }
+.summary.is-caution { border: 2px solid var(--caution); }
 .prices { display: flex; gap: 32px; flex-wrap: wrap; }
 .label { color: var(--muted); font-size: 0.85rem; }
 .price { font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; }
@@ -97,6 +107,7 @@ h2 { font-size: 1rem; margin: 0 0 12px; color: var(--muted); font-weight: 600; }
 .weeks .num { text-align: right; }
 .weeks tr.alert td { background: var(--alert-row); font-weight: 700; }
 .weeks tr.alert td:last-child { color: var(--down); }
+.weeks tr.caution td { background: var(--caution-row); font-weight: 700; }
 .weeks .flag { margin-left: 4px; }
 
 footer { color: var(--muted); font-size: 0.8rem; padding-bottom: 32px; }

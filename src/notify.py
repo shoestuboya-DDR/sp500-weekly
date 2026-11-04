@@ -32,11 +32,14 @@ def decide_weekly_mail(
     weekly_summary: bool,
     fund_name: str,
     site_url: str,
+    alert_pct: float = -5.0,
+    caution_pct: float | None = None,
 ) -> tuple[WeekPoint | None, Mail | None]:
     """通知対象の確定週と、送るメールを返す。
 
     戻り値の週は「通知済み」として記録すべき週（メールを送らない場合も含む）。
     何もしなくていいときは (None, None)。
+    weekly_summary が False でも、アラート・注意の週は通知する。
     """
     confirmed = next((w for w in weeks if not w.is_partial), None)
     if confirmed is None:
@@ -45,8 +48,8 @@ def decide_weekly_mail(
         return None, None
     if confirmed.change_pct is None:
         return confirmed, None
-    if confirmed.alert or weekly_summary:
-        return confirmed, build_week_mail(confirmed, fund_name, site_url)
+    if confirmed.alert or confirmed.caution or weekly_summary:
+        return confirmed, build_week_mail(confirmed, fund_name, site_url, alert_pct, caution_pct)
     return confirmed, None
 
 
@@ -71,15 +74,33 @@ def _pct(x: float) -> str:
     return f"{x:+.2f}%"
 
 
-def build_week_mail(w: WeekPoint, fund_name: str, site_url: str) -> Mail:
+def _th(x: float) -> str:
+    """閾値の表示用（-5.0 → "−5%"、-4.5 → "−4.5%"）。"""
+    return f"−{abs(x):g}%"
+
+
+def build_week_mail(
+    w: WeekPoint,
+    fund_name: str,
+    site_url: str,
+    alert_pct: float = -5.0,
+    caution_pct: float | None = None,
+) -> Mail:
     assert w.change_pct is not None and w.prev_date is not None and w.prev_price is not None
     arrow = "▲" if w.change_pct >= 0 else "▼"
+    summary = f"[S&P500] {w.week} 前週比 {_pct(w.change_pct)} {_yen(w.price)}"
     if w.alert:
-        subject = f"🚨【アラート】[S&P500] {w.week} 前週比 {_pct(w.change_pct)} {_yen(w.price)}"
-        title = "🚨【アラート】S&P500 が前週比 −5% 以上下落"
+        subject = f"🚨【アラート】{summary}"
+        title = f"🚨【アラート】S&P500 が前週比 {_th(alert_pct)} 以上下落"
+        banner_text, banner_bg, banner_fg = f"⚠ 前週比 {_th(alert_pct)} 以上の下落", "#c62828", "#fff"
+    elif w.caution and caution_pct is not None:
+        subject = f"⚠【注意】{summary}"
+        title = f"⚠【注意】S&P500 が前週比 {_th(caution_pct)} 以上下落"
+        banner_text, banner_bg, banner_fg = f"⚠ 前週比 {_th(caution_pct)} 以上の下落（注意）", "#ffe08a", "#5c3d00"
     else:
-        subject = f"[S&P500] {w.week} 前週比 {_pct(w.change_pct)} {_yen(w.price)}"
+        subject = summary
         title = f"📈 S&P500 週末チェック（{w.week}）"
+        banner_text = ""
 
     lines = [
         title,
@@ -95,12 +116,12 @@ def build_week_mail(w: WeekPoint, fund_name: str, site_url: str) -> Mail:
 
     color = "#c62828" if w.change_pct < 0 else "#2e7d32"
     pct_style = f"color:{color};font-size:1.6em;"
-    if w.alert:
+    if w.alert or w.caution:
         pct_style += "font-weight:bold;"
     banner = (
-        '<div style="background:#c62828;color:#fff;padding:12px 16px;font-weight:bold;'
-        'border-radius:6px;margin-bottom:12px;">⚠ 前週比 −5% 以上の下落</div>'
-        if w.alert
+        f'<div style="background:{banner_bg};color:{banner_fg};padding:12px 16px;font-weight:bold;'
+        f'border-radius:6px;margin-bottom:12px;">{html.escape(banner_text)}</div>'
+        if banner_text
         else ""
     )
     link = (

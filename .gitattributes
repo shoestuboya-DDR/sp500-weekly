@@ -1,0 +1,3 @@
+# 改行コードはリポジトリ・作業ツリーとも LF に統一する（Windows の CRLF 変換警告を出さない）
+* text=auto eol=lf
+*.png binary

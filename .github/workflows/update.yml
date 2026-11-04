@@ -2,7 +2,8 @@ name: update
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 毎日 09:00 JST
+    # 毎日 09:17 JST。毎時ちょうどは GitHub 側が混雑して遅延・スキップされやすいので外す
+    - cron: "17 0 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -55,10 +56,20 @@ jobs:
           done
           if git diff --cached --quiet; then
             echo "変更なし"
-          else
-            git commit -m "data: update $(TZ=Asia/Tokyo date +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "data: update $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          # 実行中に別のコミットが push されていても通知履歴を確実に残すため、
+          # 最新を取り込んでから push し、失敗したら数回やり直す
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "push に失敗（${i}回目）。リトライする"
+            sleep $((i * 5))
+          done
+          echo "::error::data.json / notified.json の push に失敗。翌日に同じ通知が再送される可能性あり"
+          exit 1
 
       - uses: actions/upload-pages-artifact@v4
         with:
