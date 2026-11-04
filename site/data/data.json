@@ -3,7 +3,7 @@
     "name": "eMAXIS Slim 米国株式(S&P500)",
     "isin": "JP90C000GKC6"
   },
-  "generated_at": "2026-11-04T10:29:00+09:00",
+  "generated_at": "2026-11-04T10:31:34+09:00",
   "source_latest_date": "2026-11-02",
   "source_row_count": 2032,
   "alert_threshold_pct": -5.0,
