@@ -3,9 +3,9 @@
     "name": "eMAXIS Slim 米国株式(S&P500)",
     "isin": "JP90C000GKC6"
   },
-  "generated_at": "2026-11-11T15:37:23+09:00",
-  "source_latest_date": "2026-11-10",
-  "source_row_count": 2037,
+  "generated_at": "2026-11-12T16:20:20+09:00",
+  "source_latest_date": "2026-11-11",
+  "source_row_count": 2038,
   "alert_threshold_pct": -5.0,
   "caution_threshold_pct": -4.0,
   "display_weeks": 52,
@@ -13,11 +13,11 @@
   "weeks": [
     {
       "week": "2026-W46",
-      "date": "2026-11-10",
-      "price": 44001,
+      "date": "2026-11-11",
+      "price": 44038,
       "prev_date": "2026-11-06",
       "prev_price": 42755,
-      "change_pct": 2.91,
+      "change_pct": 3.0,
       "alert": false,
       "caution": false,
       "is_partial": true
